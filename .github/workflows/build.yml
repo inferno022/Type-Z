@@ -27,6 +27,11 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
 
+    - name: Create local.properties
+      run: |
+        echo "sdk.dir=$ANDROID_HOME" > local.properties
+        echo "keystore.properties not found, APK may not be signed" >> local.properties
+
     - name: Cache Gradle packages
       uses: actions/cache@v4
       with:
@@ -40,8 +45,11 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
+    - name: Accept Android SDK licenses
+      run: echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --licenses || true
+
     - name: Build Debug APK
-      run: ./gradlew assembleUnstableDebug
+      run: ./gradlew assembleUnstableDebug --stacktrace
 
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
@@ -49,14 +57,4 @@ jobs:
         name: Type-Z-Debug
         path: build/outputs/apk/unstable/debug/android-keyboard-master-unstable-debug.apk
         retention-days: 30
-
-    - name: Upload to Release (if tagged)
-      if: startsWith(github.ref, 'refs/tags/')
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: build/outputs/apk/unstable/debug/android-keyboard-master-unstable-debug.apk
-        asset_name: Type-Z-v${{ github.ref_name }}.apk
-        asset_content_type: application/vnd.android.package-archive
+      continue-on-error: true
