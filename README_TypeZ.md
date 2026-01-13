@@ -1,4 +1,4 @@
-# Type Z - Enhanced FUTO Keyboard
+# Type Z - Enhanced Type Z Keyboard
 
 A modern, privacy-focused Android keyboard with advanced swipe gestures and custom font styling.
 
@@ -43,9 +43,9 @@ A modern, privacy-focused Android keyboard with advanced swipe gestures and cust
 
 ## 🛠️ Development
 
-This is a fork of the FUTO Keyboard project with significant enhancements:
+This is a fork of the Type Z Keyboard project with significant enhancements:
 
-- **Base Project**: [FUTO Keyboard](https://github.com/futo-org/android-keyboard)
+- **Base Project**: [Type Z Keyboard](https://github.com/futo-org/android-keyboard)
 - **Enhanced By**: Kalantri Krish
 - **License**: FUTO Source First License 1.1
 
