@@ -56,61 +56,49 @@ fun FontStylesScreen(navController: NavController) {
                 manager?.forceActionWindowAboveKeyboard(true)
             },
             modifier = Modifier
-                .padding(16.dp)
                 .fillMaxWidth()
+                .padding(16.dp, 8.dp)
         ) {
-            Text(stringResource(R.string.action_fonttyper_show_font_styles))
+            Text(stringResource(R.string.font_styles_open_wordstyles))
         }
 
-        PresetPicker()
+        Spacer(Modifier.height(24.dp))
 
-        Spacer(Modifier.height(16.dp))
+        Text(
+            text = stringResource(R.string.font_styles_available_styles),
+            style = MaterialTheme.typography.titleMedium,
+            modifier = Modifier.padding(16.dp, 8.dp)
+        )
 
         VerticalGrid(
             items = listOf(
-                UserSetting(
-                    title = R.string.font_styles_antique,
-                    subtitle = null,
-                    icon = null,
-                    key = "font_antique",
-                    default = { false },
-                    onChange = { }
-                ),
-                UserSetting(
-                    title = R.string.font_styles_cool,
-                    subtitle = null,
-                    icon = null,
-                    key = "font_cool",
-                    default = { false },
-                    onChange = { }
-                ),
-                UserSetting(
-                    title = R.string.font_styles_retro,
-                    subtitle = null,
-                    icon = null,
-                    key = "font_retro",
-                    default = { false },
-                    onChange = { }
-                ),
-                UserSetting(
-                    title = R.string.font_styles_scratch,
-                    subtitle = null,
-                    icon = null,
-                    key = "font_scratch",
-                    default = { false },
-                    onChange = { }
-                ),
-                UserSetting(
-                    title = R.string.font_styles_superhero,
-                    subtitle = null,
-                    icon = null,
-                    key = "font_superhero",
-                    default = { false },
-                    onChange = { }
-                )
+                R.string.action_fonttyper_preset_title_superhero,
+                R.string.action_fonttyper_preset_title_candy,
+                R.string.action_fonttyper_preset_title_dramatictext,
+                R.string.action_fonttyper_preset_title_rainbow,
+                R.string.action_fonttyper_preset_title_horizon,
+                R.string.action_fonttyper_preset_title_opening_crawl,
+                R.string.action_fonttyper_preset_title_scratch,
+                R.string.action_fonttyper_preset_title_calligraphy,
+                R.string.action_fonttyper_preset_title_times_new_roman,
+                R.string.action_fonttyper_preset_title_not_sans,
+                R.string.action_fonttyper_preset_title_monospace,
+                R.string.action_fonttyper_preset_title_comic_sans,
+                R.string.action_fonttyper_preset_title_gothic,
+                R.string.action_fonttyper_preset_title_cursive,
+                R.string.action_fonttyper_preset_title_typewriter,
+                R.string.action_fonttyper_preset_title_neon,
+                R.string.action_fonttyper_preset_title_retro,
+                R.string.action_fonttyper_preset_title_elegant
             ),
-            columns = 2
-        )
+            columns = 2,
+            modifier = Modifier.padding(16.dp, 0.dp)
+        ) { fontNameRes ->
+            Text(
+                text = stringResource(fontNameRes),
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(8.dp)
+            )
         }
     }
 }
