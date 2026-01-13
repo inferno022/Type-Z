@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Pink",
+  "description": "Professional Type Z Pink Theme",
+  "colors": {
+    "main": "#9F1239",
+    "accent": "#DB2777",
+    "background": "#FDF2F8",
+    "text": "#500724",
+    "secondary": "#BE185D"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

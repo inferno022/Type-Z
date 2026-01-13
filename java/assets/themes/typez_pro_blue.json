@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Blue",
+  "description": "Professional Type Z Blue Theme",
+  "colors": {
+    "main": "#1E3A8A",
+    "accent": "#3B82F6",
+    "background": "#F8FAFC",
+    "text": "#1E293B",
+    "secondary": "#64748B"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

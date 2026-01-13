@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Green",
+  "description": "Professional Type Z Green Theme",
+  "colors": {
+    "main": "#14532D",
+    "accent": "#16A34A",
+    "background": "#F0FDF4",
+    "text": "#052E16",
+    "secondary": "#15803D"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

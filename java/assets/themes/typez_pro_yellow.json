@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Yellow",
+  "description": "Professional Type Z Yellow Theme",
+  "colors": {
+    "main": "#854D0E",
+    "accent": "#CA8A04",
+    "background": "#FEFCE8",
+    "text": "#451A03",
+    "secondary": "#A16207"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

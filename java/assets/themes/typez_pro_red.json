@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Red",
+  "description": "Professional Type Z Red Theme",
+  "colors": {
+    "main": "#7F1D1D",
+    "accent": "#DC2626",
+    "background": "#FEF2F2",
+    "text": "#450A0A",
+    "secondary": "#991B1B"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

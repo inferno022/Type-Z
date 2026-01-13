@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Indigo",
+  "description": "Professional Type Z Indigo Theme",
+  "colors": {
+    "main": "#312E81",
+    "accent": "#4F46E5",
+    "background": "#EEF2FF",
+    "text": "#1E1B4B",
+    "secondary": "#3730A3"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

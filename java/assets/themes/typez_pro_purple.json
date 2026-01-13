@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Purple",
+  "description": "Professional Type Z Purple Theme",
+  "colors": {
+    "main": "#581C87",
+    "accent": "#9333EA",
+    "background": "#FAF5FF",
+    "text": "#2E1065",
+    "secondary": "#6B21A8"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

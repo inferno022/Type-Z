@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Gray",
+  "description": "Professional Type Z Gray Theme",
+  "colors": {
+    "main": "#374151",
+    "accent": "#6B7280",
+    "background": "#F9FAFB",
+    "text": "#111827",
+    "secondary": "#4B5563"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

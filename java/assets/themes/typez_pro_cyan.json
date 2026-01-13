@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Cyan",
+  "description": "Professional Type Z Cyan Theme",
+  "colors": {
+    "main": "#164E63",
+    "accent": "#0891B2",
+    "background": "#ECFEFF",
+    "text": "#083344",
+    "secondary": "#0E7490"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Teal",
+  "description": "Professional Type Z Teal Theme",
+  "colors": {
+    "main": "#134E4A",
+    "accent": "#0D9488",
+    "background": "#F0FDFA",
+    "text": "#042F2E",
+    "secondary": "#115E59"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}

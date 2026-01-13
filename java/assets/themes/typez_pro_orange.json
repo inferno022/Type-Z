@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Pro Orange",
+  "description": "Professional Type Z Orange Theme",
+  "colors": {
+    "main": "#9A3412",
+    "accent": "#EA580C",
+    "background": "#FFF7ED",
+    "text": "#431407",
+    "secondary": "#C2410C"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "professional"
+  }
+}
