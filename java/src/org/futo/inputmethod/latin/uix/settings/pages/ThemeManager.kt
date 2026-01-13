@@ -27,7 +27,7 @@ import org.futo.inputmethod.latin.uix.theme.ZipThemes
 import org.futo.inputmethod.latin.uix.actions.fonttyper.FontTyperAction
 
 @Composable
-fun ThemeManagerScreen(navController: androidx.navigation.NavHostController = rememberNavController()) {
+fun ThemeManagerScreen(navController: androidx.navigation.NavHostController) {
     val context = LocalContext.current
     val uixManager = LocalManager.current
     val selectedTab = remember { mutableStateOf(0) }

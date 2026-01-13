@@ -32,20 +32,25 @@ fun FontStylesScreen(navController: NavController) {
     val context = LocalContext.current
     val scrollState = rememberScrollState()
 
-    ScrollableList(modifier = Modifier.verticalScroll(scrollState)) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(16.dp)
+    ) {
         Text(
-            text = stringResource(R.string.font_styles_title),
+            text = "Type Z Font Styles",
             style = MaterialTheme.typography.headlineMedium,
-            modifier = Modifier.padding(16.dp, 8.dp)
+            modifier = Modifier.padding(bottom = 8.dp)
         )
-
+        
         Text(
-            text = stringResource(R.string.font_styles_description),
+            text = "Professional Typography Collection",
             style = MaterialTheme.typography.bodyMedium,
-            modifier = Modifier.padding(16.dp, 0.dp)
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(bottom = 16.dp)
         )
 
-        Spacer(Modifier.height(16.dp))
+        ScrollableList(modifier = Modifier.verticalScroll(scrollState)) {
 
         if (manager?.appSupportsImageInsertion("image/png", true) == false) {
             Tip("⚠ " + stringResource(R.string.action_fonttyper_app_unsupported_warning))

@@ -37,7 +37,7 @@ val ThemeAction = Action(
                         intent.setFlags(
                             Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
                         )
-                        intent.putExtra("navDest", "themes")
+                        intent.putExtra("navDest", "themeManager")
                         context.startActivity(intent)
                     } else {
                         val toast = Toast.makeText(

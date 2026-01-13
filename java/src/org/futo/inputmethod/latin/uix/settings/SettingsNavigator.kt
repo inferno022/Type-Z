@@ -143,6 +143,7 @@ fun SettingsNavigator(
             composable("keyboardAndTyping") { KeyboardAndTypingScreen(navController) }
             composable("resize") { ResizeScreen(navController) }
             composable("themes") { ThemeScreen(navController) }
+            composable("themeManager") { ThemeManagerScreen(navController) }
             composable("customTheme/{uri}") { CustomThemeScreen(it.arguments?.getString("uri") ?: "", navController) }
 
             composable("developer") { DeveloperScreen(navController) }
