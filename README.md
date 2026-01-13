@@ -1,39 +1,75 @@
-# FUTO Keyboard
+# Type Z - Enhanced Android Keyboard
 
-The goal is to make a good modern keyboard that stays offline and doesn't spy on you. This keyboard is a fork of [LatinIME, The Android Open-Source Keyboard](https://android.googlesource.com/platform/packages/inputmethods/LatinIME), with significant changes made to it.
+A modern, privacy-focused Android keyboard with advanced swipe gestures and custom font styling.
 
-Check out the [FUTO Keyboard website](https://keyboard.futo.org/) for downloads and more information.
+## 🚀 New Features
 
-The code is licensed under the [FUTO Source First License 1.1](LICENSE.md).
+### 🎯 Enhanced Swipe Gestures
+- **Space Bar Swipe**: Press and hold, then swipe left/right to move cursor
+- **Delete Key Swipe**: Press and hold, then swipe left to delete words or entire lines
+- **Smart Detection**: Automatically detects swipe direction and intent
 
-## Issue tracking and contributing
+### 🎨 Custom Font System
+- **18 Unique Font Styles**: Retro, Superhero, Scratch, Calligraphy, Comic Sans, and more
+- **Professional Rendering**: Uses custom fonts with proper fallbacks
+- **Error Handling**: Graceful fallback to system fonts if custom fonts fail
 
-Please check the GitHub repository to report issues: [https://github.com/futo-org/android-keyboard/](https://github.com/futo-org/android-keyboard/)
+### 🔧 Technical Improvements
+- **Updated Build System**: Fixed Gradle deprecation warnings
+- **Java 11 Compatibility**: Updated from Java 8 to Java 11
+- **Enhanced Font Loading**: Robust font loading with error handling
+- **Swipe Gesture Handler**: New gesture detection system
 
-The source code is hosted on our [internal GitLab](https://gitlab.futo.org/keyboard/latinime) and mirrored to [GitHub](https://github.com/futo-org/android-keyboard/). As registration is closed on our internal GitLab, we use GitHub instead for issues and pull requests.
+## 📱 Installation
 
-Due to custom license, pull requests to this repository require signing a [CLA](https://cla.futo.org/) which you can do after opening a PR. Contributions to the [layouts repo](https://github.com/futo-org/futo-keyboard-layouts) don't require CLA as they're Apache-2.0
+1. Download the latest APK from [Releases](https://github.com/inferno022/Type-Z/releases)
+2. Enable "Install from unknown sources" in your phone's settings
+3. Install the APK
+4. Go to Settings → Language & Input → Keyboard
+5. Select "Type Z Keyboard" and set it as default
 
-If you want to help translate the app, please do so via our Pontoon instance: https://i18n-keyboard.futo.org/
+## 🎮 How to Use
 
-## Layouts
+### Swipe Gestures
+- **Cursor Movement**: Hold space bar, swipe left/right
+- **Word Deletion**: Hold delete key, swipe left
+- **Line Deletion**: Hold delete key, swipe left further
 
-If you want to contribute layouts, check out the [layouts repo](https://github.com/futo-org/futo-keyboard-layouts).
+### Font Styling
+1. Open keyboard settings
+2. Navigate to "Font Styles"
+3. Choose from 18 different font styles
+4. Apply and enjoy your custom text styling!
 
-## Building
+## 🛠️ Development
 
-When cloning the repository, you must perform a recursive clone to fetch all dependencies:
-```
-git clone --recursive https://gitlab.futo.org/keyboard/latinime.git
-```
+This is a fork of the FUTO Keyboard project with significant enhancements:
 
-If you forgot to specify recursive clone, use this to fetch submodules:
-```
-git submodule update --init --recursive
-```
+- **Base Project**: [FUTO Keyboard](https://github.com/futo-org/android-keyboard)
+- **Enhanced By**: Kalantri Krish
+- **License**: FUTO Source First License 1.1
 
-You can then open the project in Android Studio and build it that way, or use gradle commands:
-```
-./gradlew assembleUnstableDebug
-./gradlew assembleStableRelease
-```
+## 📋 Requirements
+
+- **Android**: API 24+ (Android 7.0+)
+- **Target SDK**: API 35 (Android 15)
+- **Java**: 11
+- **Kotlin**: 2.1.0
+
+## 🔐 Privacy
+
+- **100% Offline**: No telemetry or data collection
+- **Open Source**: Fully transparent code
+- **No Tracking**: Your typing data never leaves your device
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read the contributing guidelines and submit pull requests.
+
+## 📄 License
+
+This project is licensed under the FUTO Source First License 1.1. See the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+**Type Z** - Where privacy meets powerful typing! 🚀
