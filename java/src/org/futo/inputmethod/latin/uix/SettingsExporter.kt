@@ -35,7 +35,7 @@ import okio.sink
 import okio.source
 import org.futo.inputmethod.engine.GlobalIMEMessage
 import org.futo.inputmethod.engine.IMEMessage
-import org.futo.inputmethod.engine.general.mozcUserProfileDir
+// import org.futo.inputmethod.engine.general.mozcUserProfileDir  // Temporarily disabled
 import org.futo.inputmethod.latin.R
 import org.futo.inputmethod.latin.utils.readAllBytesCompat
 import org.futo.inputmethod.latin.uix.PreferenceUtils.getDefaultSharedPreferences
@@ -268,14 +268,14 @@ object SettingsExporter {
             }
         }
 
-        // Collect mozc (Japanese user typing history, etc)
-        mozcUserProfileDir(context).listFiles()?.forEach { subfile ->
-            assert(!subfile.isDirectory)
-            val entry = ZipEntry("mozc/${subfile.name}")
-            zipOut.putNextEntry(entry)
-            subfile.inputStream().use { it.copyTo(zipOut) }
-            zipOut.closeEntry()
-        }
+        // Collect mozc (Japanese user typing history, etc) - Temporarily disabled
+        // mozcUserProfileDir(context).listFiles()?.forEach { subfile ->
+        //     assert(!subfile.isDirectory)
+        //     val entry = ZipEntry("mozc/${subfile.name}")
+        //     zipOut.putNextEntry(entry)
+        //     subfile.inputStream().use { it.copyTo(zipOut) }
+        //     zipOut.closeEntry()
+        // }
 
         // Collect themes
         ZipThemes.customThemesDir(context).listFiles()?.forEach { themeFile ->
@@ -321,7 +321,7 @@ object SettingsExporter {
                 }
             }
 
-            mozcUserProfileDir(context).deleteRecursively()
+            // mozcUserProfileDir(context).deleteRecursively()  // Temporarily disabled
 
             // delete all themes
             ZipThemes.customThemesDir(context).listFiles()?.forEach { it.delete() }
@@ -383,6 +383,8 @@ object SettingsExporter {
                 }
 
                 entry.name.startsWith("mozc/") -> {
+                    // Temporarily disabled mozc import
+                    /*
                     val relDir = entry.name.split('/', limit=2).last()
 
                     assert(!relDir.contains('/'))
@@ -392,6 +394,7 @@ object SettingsExporter {
                     File(userProfileDir, relDir).outputStream().use {
                         zipIn.copyTo(it)
                     }
+                    */
                 }
 
                 entry.name.startsWith("themes/") -> {

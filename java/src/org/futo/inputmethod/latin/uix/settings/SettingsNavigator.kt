@@ -50,7 +50,7 @@ import org.futo.inputmethod.latin.uix.settings.pages.PredictiveTextMenu
 import org.futo.inputmethod.latin.uix.settings.pages.ProjectInfoView
 import org.futo.inputmethod.latin.uix.settings.pages.ResizeMenuLite
 import org.futo.inputmethod.latin.uix.settings.pages.ResizeScreen
-import org.futo.inputmethod.latin.uix.settings.pages.SearchScreen
+// import org.futo.inputmethod.latin.uix.settings.pages.SearchScreen  // Temporarily disabled
 import org.futo.inputmethod.latin.uix.settings.pages.SelectLanguageScreen
 import org.futo.inputmethod.latin.uix.settings.pages.SelectLayoutsScreen
 import org.futo.inputmethod.latin.uix.settings.pages.themes.ThemeScreen
@@ -58,10 +58,10 @@ import org.futo.inputmethod.latin.uix.settings.pages.TypingSettingsMenu
 import org.futo.inputmethod.latin.uix.settings.pages.VoiceInputMenu
 import org.futo.inputmethod.latin.uix.settings.pages.addModelManagerNavigation
 import org.futo.inputmethod.latin.uix.settings.pages.buggyeditors.BuggyTextEditVariations
-import org.futo.inputmethod.latin.uix.settings.pages.pdict.ConfirmDeleteExtraDictFileDialog
-import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageList
-import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageListForLocale
-import org.futo.inputmethod.latin.uix.settings.pages.pdict.WordPopupDialogF
+// import org.futo.inputmethod.latin.uix.settings.pages.pdict.ConfirmDeleteExtraDictFileDialog  // Temporarily disabled
+// import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageList  // Temporarily disabled
+// import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageListForLocale  // Temporarily disabled
+// import org.futo.inputmethod.latin.uix.settings.pages.pdict.WordPopupDialogF  // Temporarily disabled
 import org.futo.inputmethod.latin.uix.settings.pages.themes.DeleteCustomThemeDialog
 import org.futo.inputmethod.latin.uix.urlDecode
 import org.futo.inputmethod.latin.uix.urlEncode
@@ -107,7 +107,7 @@ fun SettingsNavigator(
             popExitTransition = { ExitTransition.None }
         ) {
             composable("home") { HomeScreen(navController) }
-            composable("search") { SearchScreen(navController) }
+            // composable("search") { SearchScreen(navController) }  // Temporarily disabled
             composable("languages") { LanguagesScreen(navController) }
             composable("addLanguage") { SelectLanguageScreen(navController) }
             composable("addLayout/{lang}") {
@@ -116,28 +116,28 @@ fun SettingsNavigator(
                     it.arguments?.getString("lang")?.urlDecode() ?: ""
                 )
             }
-            composable("pdict") {
-                PersonalDictionaryLanguageList()
-            }
-            composable("pdict/{lang}") {
-                PersonalDictionaryLanguageListForLocale(
-                    navController,
-                    it,
-                    it.arguments?.getString("lang")?.urlDecode() ?: "all"
-                )
-            }
-            dialog("pdictword/{lang}/{word}") {
-                WordPopupDialogF(
-                    locale = it.arguments?.getString("lang")?.urlDecode(),
-                    selectedWord = it.arguments?.getString("word")?.urlDecode(),
-                )
-            }
-            dialog("pdictdelete/{dict}") {
-                ConfirmDeleteExtraDictFileDialog(it.arguments?.getString("dict")?.urlDecode()!!)
-            }
+            // composable("pdict") {  // Temporarily disabled
+            //     PersonalDictionaryLanguageList()
+            // }
+            // composable("pdict/{lang}") {  // Temporarily disabled
+            //     PersonalDictionaryLanguageListForLocale(
+            //         navController,
+            //         it,
+            //         it.arguments?.getString("lang")?.urlDecode() ?: "all"
+            //     )
+            // }
+            // dialog("pdictword/{lang}/{word}") {  // Temporarily disabled
+            //     WordPopupDialogF(
+            //         locale = it.arguments?.getString("lang")?.urlDecode(),
+            //         selectedWord = it.arguments?.getString("word")?.urlDecode(),
+            //     )
+            // }
+            // dialog("pdictdelete/{dict}") {  // Temporarily disabled
+            //     ConfirmDeleteExtraDictFileDialog(it.arguments?.getString("dict")?.urlDecode()!!)
+            // }
             composable("advancedparams") { AdvancedParametersScreen(navController) }
             composable("actionEdit") { ActionEditorScreen(navController) }
-            SettingsMenus.forEach { menu ->
+            SettingsMenus.filterIsInstance<org.futo.inputmethod.latin.uix.settings.UserSettingsMenu>().filter { it.settings.isNotEmpty() }.forEach { menu ->
                 if(menu.registerNavPath) composable(menu.navPath) { UserSettingsMenuScreen(menu) }
             }
             composable("keyboardAndTyping") { KeyboardAndTypingScreen(navController) }

@@ -2,7 +2,7 @@ package org.futo.inputmethod.engine
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import org.futo.inputmethod.engine.general.JapaneseIMESettings
+// import org.futo.inputmethod.engine.general.JapaneseIMESettings  // Temporarily disabled
 import org.futo.inputmethod.latin.R
 import org.futo.inputmethod.latin.Subtypes
 import org.futo.inputmethod.latin.SubtypesSetting
@@ -21,8 +21,8 @@ private fun isVisible(language: String): Boolean {
     }
 }
 
-val SettingsByLanguage = mapOf(
-    "ja" to JapaneseIMESettings.menu.copy(visibilityCheck = { isVisible("ja") })
+val SettingsByLanguage: Map<String, Any> = mapOf(
+    // "ja" to JapaneseIMESettings.menu.copy(visibilityCheck = { isVisible("ja") })  // Temporarily disabled
 )
 
 @Composable
@@ -35,21 +35,23 @@ private fun anyVisible(): Boolean {
     }
 }
 
-private val IMESettings = buildList {
-    SettingsByLanguage.forEach {
-        add(
-            userSettingNavigationItem(
-                title = it.value.title,
-                style = NavigationItemStyle.HomePrimary,
-                icon = R.drawable.globe,
-                navigateTo = it.value.navPath,
-            ).copy(
-                visibilityCheck = it.value.visibilityCheck,
-                appearInSearchIfVisibilityCheckFailed = false
-            )
-        )
-    }
-}
+private val IMESettings = emptyList<org.futo.inputmethod.latin.uix.settings.UserSetting>()
+// buildList<Any> {
+//     // Temporarily disabled since SettingsByLanguage is empty
+//     // SettingsByLanguage.forEach {
+//     //     add(
+//     //         userSettingNavigationItem(
+//     //             title = it.value.title,
+//     //             style = NavigationItemStyle.HomePrimary,
+//     //             icon = R.drawable.globe,
+//     //             navigateTo = it.value.navPath,
+//     //         ).copy(
+//     //             visibilityCheck = it.value.visibilityCheck,
+//     //             appearInSearchIfVisibilityCheckFailed = false
+//     //         )
+//     //     )
+//     // }
+// }
 
 val IMESettingsMenu = UserSettingsMenu(
     title = R.string.language_specific_settings_title,

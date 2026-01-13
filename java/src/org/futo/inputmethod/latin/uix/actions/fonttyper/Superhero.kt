@@ -42,7 +42,11 @@ object SuperheroRenderer : WordImageRenderer() {
 
         val measurePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             textSize = textSizePx
-            typeface = Typeface.createFromAsset(context.assets, "fonts/Anton-Regular.ttf")
+            typeface = try {
+                Typeface.createFromAsset(context.assets, "fonts/Anton-Regular.ttf")
+            } catch (e: Exception) {
+                Typeface.create("sans-serif-condensed", Typeface.BOLD)
+            }
         }
 
         val textBounds = Rect()

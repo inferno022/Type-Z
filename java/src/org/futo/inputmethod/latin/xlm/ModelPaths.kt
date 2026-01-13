@@ -17,7 +17,7 @@ import java.io.File
 import java.io.FileOutputStream
 
 
-val BASE_MODEL_RESOURCE = R.raw.ml4_q6_k
+// val BASE_MODEL_RESOURCE = R.raw.ml4_q6_k  // Temporarily disabled - resource missing
 val BASE_MODEL_NAME = "ml4_q6_k"
 val DEPRECATED_MODEL_NAME = "ml4_1_f16_meta_fixed"
 
@@ -232,15 +232,16 @@ object ModelPaths {
 
         val tgtFile = File(directory, "$BASE_MODEL_NAME.gguf")
         if(!tgtFile.isFile) {
-            context.resources.openRawResource(BASE_MODEL_RESOURCE).use { inputStream ->
-                FileOutputStream(tgtFile).use { outputStream ->
-                    var read = 0
-                    val bytes = ByteArray(1024)
-                    while (inputStream.read(bytes).also { read = it } != -1) {
-                        outputStream.write(bytes, 0, read)
-                    }
-                }
-            }
+            // Temporarily disabled - BASE_MODEL_RESOURCE is missing
+            // context.resources.openRawResource(BASE_MODEL_RESOURCE).use { inputStream ->
+            //     FileOutputStream(tgtFile).use { outputStream ->
+            //         var read = 0
+            //         val bytes = ByteArray(1024)
+            //         while (inputStream.read(bytes).also { read = it } != -1) {
+            //             outputStream.write(bytes, 0, read)
+            //         }
+            //     }
+            // }
         }
     }
 

@@ -821,8 +821,11 @@ class PersistentEmojiState : PersistentActionState {
             }
 
             GlobalScope.launch(Dispatchers.IO) {
-                val inputStream = GZIPInputStream(context.resources.openRawResource(R.raw.emoji_i18n))
+                // val inputStream = GZIPInputStream(context.resources.openRawResource(R.raw.emoji_i18n))  // Temporarily disabled
+                // TODO: Add emoji_i18n.raw resource or implement alternative
+                return@launch
 
+                /*
                 var data: JsonObject? = null
                 BufferedReader(InputStreamReader(inputStream, StandardCharsets.UTF_8)).use { reader ->
                     while (true) {
@@ -867,6 +870,7 @@ class PersistentEmojiState : PersistentActionState {
 
                     if(language != "en") loadedTranslatedShortcuts.put(language, aliases)
                 }
+                */
             }
 
         }

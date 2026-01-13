@@ -31,18 +31,18 @@ final def translationsWithoutEngValues = { final String path ->
     }
 
     // Ensure it runs before build
-    preBuild.dependsOn("prepareResFilter${taskNameSuffix}")
+    // preBuild.dependsOn("prepareResFilter${taskNameSuffix}")
 
     destDir
 }
 
 android {
     namespace 'org.futo.voiceinput.shared'
-    compileSdk 35
+    compileSdk = 35
 
     defaultConfig {
-        minSdk 24
-        targetSdk 35
+        minSdk = 24
+        targetSdk = 35
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -62,17 +62,17 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
     buildFeatures {
-        compose true
-        viewBinding true
-        mlModelBinding true
+        compose = true
+        viewBinding = true
+        mlModelBinding = true
     }
 }
 

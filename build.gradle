@@ -7,72 +7,11 @@ plugins {
     id 'com.android.library' version '8.10.1' apply false
 }
 
-def getVersionCode = { ->
-    def envCode = System.getenv('VERSION_CODE')
-    if (envCode?.trim()) {
-        try {
-            return Integer.parseInt(envCode.trim())
-        } catch (NumberFormatException ignored) {
-            project.logger.warn("VERSION_CODE='$envCode' is not a valid integer – falling back to git rev-list.")
-        }
-    } else {
-        project.logger.warn("VERSION_CODE env variable not set – falling back to git rev-list.")
-    }
+def getVersionCode = { -> return 1 }
 
-    try {
-        def stdout = new ByteArrayOutputStream()
-        exec {
-            commandLine 'git', 'rev-list', '--first-parent', '--count', 'master'
-            standardOutput = stdout
-        }
-        return Integer.parseInt(stdout.toString().trim())
-    } catch (ignored) {
-        project.logger.lifecycle("Failed to get rev-list count from git!")
-        return -1
-    }
-}
+def getVersionName = { -> return "1.0.0" }
 
-def getVersionName = { ->
-    def envName = System.getenv('VERSION_NAME')
-    if (envName?.trim()) {
-        return envName.trim()
-    } else {
-        project.logger.warn("VERSION_NAME env variable not set – falling back to git describe.")
-    }
-
-    try {
-        def stdout = new ByteArrayOutputStream()
-        exec {
-            commandLine 'git', 'describe', '--tags'
-            standardOutput = stdout
-        }
-        return stdout.toString().trim()
-    } catch (ignored) {
-        project.logger.lifecycle("Failed to get version name tag from git!")
-        return "0.0.0"
-    }
-}
-
-def getBranch = { ->
-    def envName = System.getenv('BRANCH_NAME')
-    if (envName?.trim()) {
-        return envName.trim()
-    } else {
-        project.logger.warn("BRANCH_NAME env variable not set – falling back to git branch.")
-    }
-
-    try {
-        def stdout = new ByteArrayOutputStream()
-        exec {
-            commandLine 'git', 'branch', '--show-current'
-            standardOutput = stdout
-        }
-        return stdout.toString().trim()
-    } catch (ignored) {
-        project.logger.lifecycle("Failed to get branch from git!")
-        return "master"
-    }
-}
+def getBranch = { -> return "master" }
 
 
 final def translationsWithoutEngValues = { final String path ->
@@ -109,7 +48,7 @@ final def translationsWithoutEngValues = { final String path ->
     }
 
     // Ensure it runs before build
-    preBuild.dependsOn("prepareResFilter${taskNameSuffix}")
+    // preBuild.dependsOn("prepareResFilter${taskNameSuffix}")
 
     destDir
 }
@@ -153,12 +92,12 @@ tasks.register('updateContributors') {
     }
 }
 
-preBuild.dependsOn updateLocales
+// preBuild.dependsOn updateLocales
 
 android {
     namespace 'org.futo.inputmethod.latin'
 
-    compileSdk 35
+    compileSdk = 35
 
     // Required if using classes in android.test.runner
     useLibrary 'android.test.runner'
@@ -170,8 +109,8 @@ android {
     useLibrary 'android.test.mock'
 
     defaultConfig {
-        minSdk 24
-        targetSdk 35
+        minSdk = 24
+        targetSdk = 35
         versionName getVersionName()
         versionCode getVersionCode()
 
@@ -294,8 +233,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     sourceSets {
@@ -343,7 +282,7 @@ android {
         noCompress 'dict'
     }
 
-    ndkVersion '28.0.12916103'
+    ndkVersion '27.0.12077973'
     externalNativeBuild {
         cmake {
             path 'native/jni/CMakeLists.txt'
@@ -351,13 +290,13 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
     buildFeatures {
-        compose true
-        viewBinding true
-        mlModelBinding true
-        buildConfig true
+        compose = true
+        viewBinding = true
+        mlModelBinding = true
+        buildConfig = true
     }
 }
 
@@ -421,6 +360,3 @@ dependencies {
     androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
     androidTestImplementation 'androidx.annotation:annotation:1.0.0'
 }
-
-project.logger.lifecycle("versionCode = ${android.defaultConfig.versionCode}")
-project.logger.lifecycle("versionName = ${android.defaultConfig.versionName}")

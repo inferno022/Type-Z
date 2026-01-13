@@ -143,7 +143,18 @@ private val renderers = listOf(
     RainbowRenderer,
     ScratchRenderer,
     OpeningCrawlRenderer,
-    DramaticTextRenderer
+    DramaticTextRenderer,
+    CalligraphyRenderer,
+    TimesNewRomanRenderer,
+    NotSansRenderer,
+    MonospaceRenderer,
+    ComicSansRenderer,
+    GothicRenderer,
+    CursiveRenderer,
+    TypewriterRenderer,
+    NeonRenderer,
+    RetroRenderer,
+    ElegantRenderer
 )
 
 data class ImageTypeRequest(

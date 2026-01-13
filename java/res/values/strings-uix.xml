@@ -130,7 +130,24 @@
     <string name="action_fonttyper_preset_title_horizon">Horizon</string>
     <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
     <string name="action_fonttyper_preset_title_opening_crawl">Opening Crawl</string>
+    <string name="action_fonttyper_preset_title_calligraphy">Calligraphy</string>
+    <string name="action_fonttyper_preset_title_times_new_roman">Times New Roman</string>
+    <string name="action_fonttyper_preset_title_not_sans">Not Sans</string>
+    <string name="action_fonttyper_preset_title_monospace">Monospace</string>
+    <string name="action_fonttyper_preset_title_comic_sans">Comic Sans</string>
+    <string name="action_fonttyper_preset_title_gothic">Gothic</string>
+    <string name="action_fonttyper_preset_title_cursive">Cursive</string>
+    <string name="action_fonttyper_preset_title_typewriter">Typewriter</string>
+    <string name="action_fonttyper_preset_title_neon">Neon</string>
+    <string name="action_fonttyper_preset_title_retro">Retro</string>
+    <string name="action_fonttyper_preset_title_elegant">Elegant</string>
     <string name="action_fonttyper_finish">Finish</string>
+
+    <!-- Font Styles Screen -->
+    <string name="font_styles_title">Font Styles</string>
+    <string name="font_styles_description">Choose from various font styles to type with different text appearances. These fonts work across all apps like WhatsApp, Reddit, Instagram, and more.</string>
+    <string name="font_styles_open_wordstyles">Open WordStyles</string>
+    <string name="font_styles_available_styles">Available Font Styles:</string>
 
     <!-- Keyboard action kinds -->
     <string name="action_kind_action_key">Action Key</string>
@@ -150,8 +167,12 @@
     <string name="theme_deepsea_dark">Deep Sea Dark</string>
     <string name="theme_deepsea_light">Deep Sea Light</string>
     <string name="theme_emerald">Emerald</string>
-    <string name="theme_gradient1">Gradient 1</string>
-    <string name="theme_gradient2">Gradient 2</string>
+    <string name="theme_gradient1">Gradient Purple</string>
+    <string name="theme_gradient2">Gradient Purple Blue</string>
+    <string name="theme_gradient3">Gradient Green Teal</string>
+    <string name="theme_gradient4">Gradient Orange Red</string>
+    <string name="theme_gradient5">Gradient Pink Purple</string>
+    <string name="theme_gradient6">Gradient Blue Cyan</string>
     <string name="theme_rainbow">Rainbow</string>
     <string name="theme_snowfall">Snowfall</string>
     <string name="theme_steel_gray">Steel Gray</string>

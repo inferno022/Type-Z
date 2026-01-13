@@ -18,8 +18,13 @@ import org.futo.inputmethod.latin.R
 
 object ScratchRenderer: WordImageRenderer() {
     override val font: ((Context) -> Typeface)?
-        get() = {
-            Typeface.createFromAsset(it.assets, "fonts/Scratch.ttf")
+        get() = { context ->
+            try {
+                Typeface.createFromAsset(context.assets, "fonts/Scratch.ttf")
+            } catch (e: Exception) {
+                // Fallback to system font if custom font fails to load
+                Typeface.create("sans-serif", Typeface.BOLD)
+            }
         }
 
     override val name: Int
@@ -36,7 +41,7 @@ object ScratchRenderer: WordImageRenderer() {
             color = androidx.compose.ui.graphics.Color(0xFFFF9800).toArgb()
             textSize = 64f
             textAlign = Paint.Align.LEFT
-            typeface = font!!(context)
+            typeface = font?.invoke(context) ?: Typeface.create("sans-serif", Typeface.BOLD)
         }
 
         val bounds = Rect()
