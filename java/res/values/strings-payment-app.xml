@@ -4,7 +4,7 @@
     <string name="payment_app_name">Payment for Type Z Keyboard</string>
     <string name="payment_app_main_menu_title">You have paid for Type Z Keyboard</string>
     <string name="payment_app_main_menu_line_1">Thank you for paying!</string>
-    <string name="payment_app_main_menu_line_2">Your purchase will help continued development of Type Z Keyboard, and other Type Z projects.</string>
+    <string name="payment_app_main_menu_line_2">Your purchase will help continued development of Type Z Keyboard, and other FUTO projects.</string>
     <string name="payment_app_main_menu_line_3">This app only serves to let you pay for Type Z Keyboard through Google‘s payment system. You don’t need to keep this app installed. To get rid of the payment notice in Type Z Keyboard, tap ‘I already paid’ or the button below.</string>
     <string name="payment_app_activate_keyboard_button">Set Type Z Keyboard as paid</string>
 

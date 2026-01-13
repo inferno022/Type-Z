@@ -163,7 +163,7 @@
     <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
     <string name="theme_classic_dark">AOSP Material Dark</string>
     <string name="theme_classic_light">AOSP Material Light</string>
-    <string name="theme_vi">Type Z VI Theme</string>
+    <string name="theme_vi">FUTO VI Theme</string>
     <string name="theme_deepsea_dark">Deep Sea Dark</string>
     <string name="theme_deepsea_light">Deep Sea Light</string>
     <string name="theme_emerald">Emerald</string>
@@ -230,16 +230,16 @@
     <!-- Payment screen -->
     <string name="payment_screen_short_title">Payment</string>
     <string name="payment_screen_title">Pay for Type Z Keyboard</string>
-    <string name="payment_screen_sales_paragraph_1">You\'ve been using Type Z Keyboard for <xliff:g name="days" example="30">%d</xliff:g> days. If you find this app useful, please consider paying to support future development of Type Z software.</string>
-    <string name="payment_screen_sales_paragraph_1_alt">Thank you for trying out Type Z Keyboard! If you find this app useful, please consider paying to support future development of Type Z software.</string>
-    <string name="payment_screen_sales_paragraph_2">Type Z is dedicated to making good software that doesn\'t abuse you. This app will never serve you ads or collect your personal data.</string>
+    <string name="payment_screen_sales_paragraph_1">You\'ve been using Type Z Keyboard for <xliff:g name="days" example="30">%d</xliff:g> days. If you find this app useful, please consider paying to support future development of FUTO software.</string>
+    <string name="payment_screen_sales_paragraph_1_alt">Thank you for trying out Type Z Keyboard! If you find this app useful, please consider paying to support future development of FUTO software.</string>
+    <string name="payment_screen_sales_paragraph_2">FUTO is dedicated to making good software that doesn\'t abuse you. This app will never serve you ads or collect your personal data.</string>
     <string name="payment_screen_sales_point_development_title">Sustainable Development</string>
-    <string name="payment_screen_sales_point_development_body">Type Z\'s mission is for open-source software and non-malicious software business practices to become a sustainable income source for projects and their developers. For this reason, we are in favor of users actually paying for software.</string>
+    <string name="payment_screen_sales_point_development_body">FUTO\'s mission is for open-source software and non-malicious software business practices to become a sustainable income source for projects and their developers. For this reason, we are in favor of users actually paying for software.</string>
     <string name="payment_screen_sales_point_privacy_title">Commitment to Privacy</string>
     <string name="payment_screen_sales_point_privacy_body">This app will never serve you ads or sell your data. We are not in the business of doing that.</string>
     <string name="payment_screen_error_build_unsupported_payment">Payment is unsupported on this build</string>
     <string name="payment_screen_already_paid_title">Already paid?</string>
-    <string name="payment_screen_already_paid_body">If you already paid for Type Z Keyboard or Type Z Voice Input, tap below.</string>
+    <string name="payment_screen_already_paid_body">If you already paid for Type Z Keyboard or FUTO Voice Input, tap below.</string>
     <string name="payment_screen_already_paid_button">I already paid</string>
     <string name="payment_screen_already_paid_confirmation">Confirm your choice</string>
     <string name="payment_screen_already_paid_confirmation_body">Are you sure you want to confirm you already paid? Once confirmed, you won\'t be asked about paying again.</string>
@@ -258,20 +258,20 @@
     <string name="payment_screen_need_help_subtitle">Need help? Visit our website</string>
 
     <string name="payment_screen_pay_via_google">Pay via Google Play (<xliff:g name="price" example="~$2.99">%s</xliff:g> + tax)</string>
-    <string name="payment_screen_pay_via_Type Zpay">Pay (<xliff:g name="price" example="~$2.99">%s</xliff:g> + tax)</string>
-    <string name="payment_screen_pay_via_Type Zpay2">Pay via Type Z Pay (<xliff:g name="price" example="~$2.99">%s</xliff:g> + tax)</string>
+    <string name="payment_screen_pay_via_futopay">Pay (<xliff:g name="price" example="~$2.99">%s</xliff:g> + tax)</string>
+    <string name="payment_screen_pay_via_futopay2">Pay via FUTO Pay (<xliff:g name="price" example="~$2.99">%s</xliff:g> + tax)</string>
     <string name="payment_screen_more_options">More options</string>
 
     <string name="payment_screen_payment_complete_title">Payment Complete</string>
     <string name="payment_screen_aftersales_title">Thank you</string>
     <string name="payment_screen_aftersales_title_pending">Payment Pending</string>
     <string name="payment_screen_aftersales_paragraph_1">Thank you for purchasing Type Z Keyboard!</string>
-    <string name="payment_screen_aftersales_paragraph_2">Your purchase will help continued development of Type Z Keyboard, and other Type Z projects.</string>
+    <string name="payment_screen_aftersales_paragraph_2">Your purchase will help continued development of Type Z Keyboard, and other FUTO projects.</string>
     <string name="payment_screen_aftersales_paragraph_2_pending">Your payment is still pending, but it should clear soon.</string>
     <string name="payment_screen_aftersales_paragraph_3">If you just paid, your payment may still be processing, you should get an email with more information.</string>
     <string name="payment_screen_payment_failed_title">Payment Error</string>
-    <string name="payment_screen_payment_failed_body">Unfortunately, your payment has failed for one reason or another. Please contact us if you need help. You can reach us at keyboard@Type Z.org, with the button below, or with Send Feedback in Help</string>
-    <string name="payment_screen_payment_failed_body_unconfident">There may have been a problem with your payment. If it did go through, you should receive an email with a license key. Please contact us if you need help. You can reach us at keyboard@Type Z.org, with the button below, or with Share Feedback at the main screen.</string>
+    <string name="payment_screen_payment_failed_body">Unfortunately, your payment has failed for one reason or another. Please contact us if you need help. You can reach us at keyboard@futo.org, with the button below, or with Send Feedback in Help</string>
+    <string name="payment_screen_payment_failed_body_unconfident">There may have been a problem with your payment. If it did go through, you should receive an email with a license key. Please contact us if you need help. You can reach us at keyboard@futo.org, with the button below, or with Share Feedback at the main screen.</string>
     <string name="payment_screen_license_integrity_error">Failed to verify license. If you believe this to be an error, please contact us.</string>
     <string name="payment_screen_continue_button">Continue</string>
 
@@ -283,8 +283,8 @@
     <!-- Lack of automatic updates notice -->
     <string name="manual_update_notice_title">Updates Notice</string>
     <string name="manual_update_notice_paragraph_1">This app doesn\'t connect to the internet and it won\'t be able to check for automatic updates. You can check for updates manually though.</string>
-    <string name="manual_update_notice_paragraph_2">Please use F-Droid or Obtainium for automatic updates. Visit keyboard.Type Z.org for download options.</string>
-    <string name="manual_update_notice_dev_paragraph">You are on the development build of Type Z Keyboard. Visit keyboard.Type Z.org if you want to download the stable build.</string>
+    <string name="manual_update_notice_paragraph_2">Please use F-Droid or Obtainium for automatic updates. Visit keyboard.futo.org for download options.</string>
+    <string name="manual_update_notice_dev_paragraph">You are on the development build of Type Z Keyboard. Visit keyboard.futo.org if you want to download the stable build.</string>
     <string name="manual_update_notice_visit_site_button">Visit</string>
     <!-- can be translated as "understood", etc -->
     <string name="manual_update_notice_dismiss_notice_button">Dismiss</string>
@@ -583,18 +583,18 @@
     <string name="help_menu_version_name">Version Name: %1$s</string>
     <string name="help_menu_version_code">Version Code: %1$s</string>
     <string name="help_menu_version_tip">We want to hear from you! If you\'re reporting an issue, your version may be relevant: v%1$s</string>
-    <string name="help_menu_website">Type Z Website</string>
+    <string name="help_menu_website">FUTO Website</string>
     <string name="help_menu_website_subtitle">Learn more about us and our philosophy</string>
     <string name="help_menu_website_tags">download, apps, voice input</string>
     <string name="help_menu_documentation">Documentation</string>
     <string name="help_menu_documentation_subtitle">Learn more about the keyboard\'s features and capabilities</string>
     <string name="help_menu_discord">Discord Server</string>
     <string name="help_menu_discord_subtitle">Wanna talk but don\'t like Zulip? Chat here</string>
-    <string name="help_menu_Type Z_chat">Type Z Chat (Zulip)</string>
-    <string name="help_menu_Type Z_chat_subtitle">Wanna talk but don\'t like Discord? Chat here</string>
+    <string name="help_menu_futo_chat">FUTO Chat (Zulip)</string>
+    <string name="help_menu_futo_chat_subtitle">Wanna talk but don\'t like Discord? Chat here</string>
     <string name="help_menu_github">Public issue tracker (GitHub)</string>
     <string name="help_menu_github_subtitle">Specific bug or feature request? Post here</string>
-    <string name="help_menu_email">Email keyboard@Type Z.org</string>
+    <string name="help_menu_email">Email keyboard@futo.org</string>
     <string name="help_menu_email_subtitle">Private feedback, help, or don\'t use GitHub? Email us</string>
     <string name="help_menu_email_tags">gmail, support, contact, help, broken, bug, error, issue, problem, complaint, ticket, payment, support, glitch, malfunction, fix, customer service, crash, question, inquiry, assistance</string>
 
