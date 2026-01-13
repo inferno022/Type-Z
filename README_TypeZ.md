@@ -2,25 +2,25 @@
 
 A modern, privacy-focused Android keyboard with advanced swipe gestures and custom font styling.
 
-## ğŸš€ New Features
+## € New Features
 
-### ğŸ¯ Enhanced Swipe Gestures
+### ¯ Enhanced Swipe Gestures
 - **Space Bar Swipe**: Press and hold, then swipe left/right to move cursor
 - **Delete Key Swipe**: Press and hold, then swipe left to delete words or entire lines
 - **Smart Detection**: Automatically detects swipe direction and intent
 
-### ğŸ¨ Custom Font System
+### ¨ Custom Font System
 - **18 Unique Font Styles**: Retro, Superhero, Scratch, Calligraphy, Comic Sans, and more
 - **Professional Rendering**: Uses custom fonts with proper fallbacks
 - **Error Handling**: Graceful fallback to system fonts if custom fonts fail
 
-### ğŸ”§ Technical Improvements
+### ”§ Technical Improvements
 - **Updated Build System**: Fixed Gradle deprecation warnings
 - **Java 11 Compatibility**: Updated from Java 8 to Java 11
 - **Enhanced Font Loading**: Robust font loading with error handling
 - **Swipe Gesture Handler**: New gesture detection system
 
-## ğŸ“± Installation
+## “± Installation
 
 1. Download the latest APK from [Releases](https://github.com/kalantrikrish7/Type-Z/releases)
 2. Enable "Install from unknown sources" in your phone's settings
@@ -28,7 +28,7 @@ A modern, privacy-focused Android keyboard with advanced swipe gestures and cust
 4. Go to Settings â†’ Language & Input â†’ Keyboard
 5. Select "Type Z Keyboard" and set it as default
 
-## ğŸ® How to Use
+## ® How to Use
 
 ### Swipe Gestures
 - **Cursor Movement**: Hold space bar, swipe left/right
@@ -39,9 +39,9 @@ A modern, privacy-focused Android keyboard with advanced swipe gestures and cust
 1. Open keyboard settings
 2. Navigate to "Font Styles"
 3. Choose from 18 different font styles
-4. Apply and enjoy your custom text styling!
+4. Apply and enjoy your custom text styling.
 
-## ğŸ› ï¸ Development
+## › ï¸ Development
 
 This is a fork of the Type Z Keyboard project with significant enhancements:
 
@@ -49,27 +49,27 @@ This is a fork of the Type Z Keyboard project with significant enhancements:
 - **Enhanced By**: Kalantri Krish
 - **License**: FUTO Source First License 1.1
 
-## ğŸ“‹ Requirements
+## “‹ Requirements
 
 - **Android**: API 24+ (Android 7.0+)
 - **Target SDK**: API 35 (Android 15)
 - **Java**: 11
 - **Kotlin**: 2.1.0
 
-## ğŸ” Privacy
+## ” Privacy
 
 - **100% Offline**: No telemetry or data collection
 - **Open Source**: Fully transparent code
 - **No Tracking**: Your typing data never leaves your device
 
-## ğŸ¤ Contributing
+## ¤ Contributing
 
 Contributions are welcome! Please read the contributing guidelines and submit pull requests.
 
-## ğŸ“„ License
+## “„ License
 
 This project is licensed under the FUTO Source First License 1.1. See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
-**Type Z** - Where privacy meets powerful typing! ğŸš€
+**Type Z** - Professional typing with enhanced privacy and functionality €
