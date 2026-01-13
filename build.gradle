@@ -301,6 +301,10 @@ android {
 }
 
 dependencies {
+    // Fix for javax.xml.bind.annotation.XmlSchema missing in JDK 11+
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+    
     implementation 'androidx.core:core-ktx:1.13.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.4'
     implementation 'androidx.lifecycle:lifecycle-runtime:2.8.4'
