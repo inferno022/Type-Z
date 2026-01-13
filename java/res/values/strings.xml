@@ -62,7 +62,7 @@
     <!-- Summary for option to block potentially offensive words to be shown [CHAR_LIMIT=80 (two lines) or 40 (fits on one line, preferable)] -->
     <string name="prefs_block_potentially_offensive_summary">Do not suggest potentially offensive words</string>
     <!-- Search tags for the setting (these are not displayed to the user, the bad words will allow this option to appear when they search those words) -->
-    <string name="prefs_block_potentially_offensive_tags">inappropriate content, profanity, offensive language, content filtering, word blacklist</string>
+    <string name="prefs_block_potentially_offensive_tags">bad words, swear words, swears, curse words, blacklist, filtering, fuck, shit</string>
 
     <!-- Option to decide the auto correction threshold score -->
     <!-- Option to enable auto correction [CHAR LIMIT=20]-->

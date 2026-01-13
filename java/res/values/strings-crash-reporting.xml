@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="crashed_text_email">Type Z Keyboard has crashed! Please email us a report to help us fix this (support@typez.keyboard)</string>
+    <string name="crashed_text_email">Type Z Keyboard has crashed! Please email us a report to help us fix this (keyboard@Type Z.org)</string>
     <string name="crashed_text">Type Z Keyboard has crashed! Please send a report to help us fix this.</string>
     <string name="crashed_title">Crash Reporter</string>
 
