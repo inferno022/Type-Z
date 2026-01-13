@@ -32,25 +32,20 @@ fun FontStylesScreen(navController: NavController) {
     val context = LocalContext.current
     val scrollState = rememberScrollState()
 
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(16.dp)
-    ) {
+    ScrollableList(modifier = Modifier.verticalScroll(scrollState)) {
         Text(
-            text = "Type Z Font Styles",
+            text = stringResource(R.string.font_styles_title),
             style = MaterialTheme.typography.headlineMedium,
-            modifier = Modifier.padding(bottom = 8.dp)
-        )
-        
-        Text(
-            text = "Professional Typography Collection",
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(bottom = 16.dp)
+            modifier = Modifier.padding(16.dp, 8.dp)
         )
 
-        ScrollableList(modifier = Modifier.verticalScroll(scrollState)) {
+        Text(
+            text = stringResource(R.string.font_styles_description),
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.padding(16.dp, 0.dp)
+        )
+
+        Spacer(Modifier.height(16.dp))
 
         if (manager?.appSupportsImageInsertion("image/png", true) == false) {
             Tip("⚠ " + stringResource(R.string.action_fonttyper_app_unsupported_warning))
@@ -61,49 +56,61 @@ fun FontStylesScreen(navController: NavController) {
                 manager?.forceActionWindowAboveKeyboard(true)
             },
             modifier = Modifier
+                .padding(16.dp)
                 .fillMaxWidth()
-                .padding(16.dp, 8.dp)
         ) {
-            Text(stringResource(R.string.font_styles_open_wordstyles))
+            Text(stringResource(R.string.action_fonttyper_show_font_styles))
         }
 
-        Spacer(Modifier.height(24.dp))
+        PresetPicker()
 
-        Text(
-            text = stringResource(R.string.font_styles_available_styles),
-            style = MaterialTheme.typography.titleMedium,
-            modifier = Modifier.padding(16.dp, 8.dp)
-        )
+        Spacer(Modifier.height(16.dp))
 
         VerticalGrid(
             items = listOf(
-                R.string.action_fonttyper_preset_title_superhero,
-                R.string.action_fonttyper_preset_title_candy,
-                R.string.action_fonttyper_preset_title_dramatictext,
-                R.string.action_fonttyper_preset_title_rainbow,
-                R.string.action_fonttyper_preset_title_horizon,
-                R.string.action_fonttyper_preset_title_opening_crawl,
-                R.string.action_fonttyper_preset_title_scratch,
-                R.string.action_fonttyper_preset_title_calligraphy,
-                R.string.action_fonttyper_preset_title_times_new_roman,
-                R.string.action_fonttyper_preset_title_not_sans,
-                R.string.action_fonttyper_preset_title_monospace,
-                R.string.action_fonttyper_preset_title_comic_sans,
-                R.string.action_fonttyper_preset_title_gothic,
-                R.string.action_fonttyper_preset_title_cursive,
-                R.string.action_fonttyper_preset_title_typewriter,
-                R.string.action_fonttyper_preset_title_neon,
-                R.string.action_fonttyper_preset_title_retro,
-                R.string.action_fonttyper_preset_title_elegant
+                UserSetting(
+                    title = R.string.font_styles_antique,
+                    subtitle = null,
+                    icon = null,
+                    key = "font_antique",
+                    default = { false },
+                    onChange = { }
+                ),
+                UserSetting(
+                    title = R.string.font_styles_cool,
+                    subtitle = null,
+                    icon = null,
+                    key = "font_cool",
+                    default = { false },
+                    onChange = { }
+                ),
+                UserSetting(
+                    title = R.string.font_styles_retro,
+                    subtitle = null,
+                    icon = null,
+                    key = "font_retro",
+                    default = { false },
+                    onChange = { }
+                ),
+                UserSetting(
+                    title = R.string.font_styles_scratch,
+                    subtitle = null,
+                    icon = null,
+                    key = "font_scratch",
+                    default = { false },
+                    onChange = { }
+                ),
+                UserSetting(
+                    title = R.string.font_styles_superhero,
+                    subtitle = null,
+                    icon = null,
+                    key = "font_superhero",
+                    default = { false },
+                    onChange = { }
+                )
             ),
-            columns = 2,
-            modifier = Modifier.padding(16.dp, 0.dp)
-        ) { fontNameRes ->
-            Text(
-                text = stringResource(fontNameRes),
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(8.dp)
-            )
+            columns = 2
+        )
         }
     }
 }
