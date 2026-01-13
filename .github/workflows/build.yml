@@ -53,10 +53,17 @@ jobs:
     - name: Build Debug APK
       run: ./gradlew assembleUnstableDebug --stacktrace
 
+    - name: Find APK file
+      run: |
+        echo "Finding APK file..."
+        find . -name "*.apk" -type f
+        ls -la build/outputs/apk/unstable/debug/ || true
+        ls -la build/outputs/apk/ || true
+
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
       with:
         name: Type-Z-Debug
-        path: build/outputs/apk/unstable/debug/android-keyboard-master-unstable-debug.apk
+        path: build/outputs/apk/unstable/debug/*.apk
         retention-days: 30
       continue-on-error: true
