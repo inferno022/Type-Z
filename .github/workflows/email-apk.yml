@@ -19,27 +19,27 @@ jobs:
         server_port: 587
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: "🎉 Type Z Keyboard APK Ready for Download!"
+        subject: "Type Z Keyboard APK Ready for Download"
         to: ${{ secrets.EMAIL_TO }}
-        from: "Type Z Build Bot <${{ secrets.EMAIL_USERNAME }}>"
+        from: "Type Z Build System <${{ secrets.EMAIL_USERNAME }}>"
         body: |
-          🎊 **Type Z Keyboard Build Successful!** 🎊
+          Type Z Keyboard Build Successful
           
-          📱 **APK Information:**
+          APK Information:
           - Build: ${{ github.event.workflow_run.head_branch }}
           - Commit: ${{ github.event.workflow_run.head_sha }}
           - Time: ${{ github.event.workflow_run.created_at }}
           
-          🔗 **Download APK:**
+          Download APK:
           https://github.com/inferno022/Type-Z/actions/runs/${{ github.event.workflow_run.id }}
           
-          🚀 **Features Included:**
-          ✅ Swipe gestures (space bar + delete key)
-          ✅ 18 custom font styles
-          ✅ Privacy-focused design
-          ✅ Android 7.0+ compatibility
+          Features Included:
+          - Advanced swipe gestures (space bar + delete key)
+          - 18 professional font styles
+          - Privacy-focused design
+          - Android 7.0+ compatibility
           
-          💰 **Ready for monetization!**
+          Ready for professional deployment
           
           ---
-          Type Z - Where privacy meets powerful typing! ⌨️
+          Type Z - Professional typing with enhanced privacy and functionality
