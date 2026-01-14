@@ -114,7 +114,7 @@ android {
         versionName getVersionName()
         versionCode getVersionCode()
 
-        applicationId 'com.typez.keyboard.pro'
+        applicationId 'com.typez.keyboard.app'
         testApplicationId 'org.typez.keyboard.tests'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = false
@@ -196,7 +196,7 @@ android {
     productFlavors {
         unstable {
             dimension "buildType"
-            applicationIdSuffix ".typez.unstable"
+            applicationIdSuffix ""
             versionNameSuffix "-pro"
 
             buildConfigField "boolean", "IS_PLAYSTORE_BUILD", "false"

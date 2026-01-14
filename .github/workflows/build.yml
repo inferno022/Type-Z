@@ -89,3 +89,5 @@ jobs:
         echo "1. Download APK from link above"
         echo "2. Enable \"Install from unknown sources\""
         echo "3. Install and enjoy!"
+ 
+        
