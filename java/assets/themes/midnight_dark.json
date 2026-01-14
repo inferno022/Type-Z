@@ -1,0 +1,22 @@
+{
+  "name": "Midnight Dark",
+  "description": "Dark theme with deep blue accents",
+  "colors": {
+    "main": "#1A237E",
+    "accent": "#283593",
+    "background": "#121212",
+    "text": "#FFFFFF",
+    "secondary": "#3949AB"
+  },
+  "key_colors": {
+    "pressed": "#283593",
+    "released": "#1A237E",
+    "special": "#3949AB"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "keyboard",
+    "style": "dark"
+  }
+}

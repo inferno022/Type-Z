@@ -1,0 +1,22 @@
+{
+  "name": "Forest Green",
+  "description": "Natural green theme with earth tones",
+  "colors": {
+    "main": "#2E7D32",
+    "accent": "#43A047",
+    "background": "#E8F5E8",
+    "text": "#1B5E20",
+    "secondary": "#388E3C"
+  },
+  "key_colors": {
+    "pressed": "#388E3C",
+    "released": "#2E7D32",
+    "special": "#43A047"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "keyboard",
+    "style": "natural"
+  }
+}

@@ -26,6 +26,13 @@ Themes are automatically loaded by Type Z Keyboard. Each theme includes:
 - Text color
 - Secondary text color
 
+### New Custom Themes:
+- **Ocean Breeze** - Ocean blue background theme
+- **Sunset Glow** - Warm sunset background theme  
+- **Neon Purple** - Vibrant purple keyboard theme
+- **Forest Green** - Natural green keyboard theme
+- **Midnight Dark** - Dark blue keyboard theme
+
 ## Adding Custom Themes
 Add your own themes by creating JSON files in this folder following the same structure.
 

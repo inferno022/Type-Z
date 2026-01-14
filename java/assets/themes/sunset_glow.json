@@ -1,0 +1,18 @@
+{
+  "name": "Sunset Glow",
+  "description": "Warm sunset theme with golden hour colors",
+  "colors": {
+    "main": "#FF6B35",
+    "accent": "#F7931E",
+    "background": "#FFF3E0",
+    "text": "#E65100",
+    "secondary": "#F57C00"
+  },
+  "background_image": "sunset_glow_bg.jpg",
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "background",
+    "style": "warm"
+  }
+}

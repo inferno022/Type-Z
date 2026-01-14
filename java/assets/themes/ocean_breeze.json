@@ -1,0 +1,18 @@
+{
+  "name": "Ocean Breeze",
+  "description": "Refreshing ocean blue theme with wave-like gradients",
+  "colors": {
+    "main": "#1E88E5",
+    "accent": "#42A5F5",
+    "background": "#E3F2FD",
+    "text": "#0D47A1",
+    "secondary": "#1565C0"
+  },
+  "background_image": "ocean_breeze_bg.jpg",
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "background",
+    "style": "gradient"
+  }
+}
