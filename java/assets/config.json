@@ -1,0 +1,19 @@
+{
+  "app": {
+    "name": "Type Z Keyboard",
+    "version": "2.0.0",
+    "minSdk": 24,
+    "targetSdk": 34
+  },
+  "features": {
+    "themes": true,
+    "custom_fonts": true,
+    "swipe_gestures": true,
+    "voice_input": true
+  },
+  "performance": {
+    "lightweight": true,
+    "optimized": true,
+    "fast_loading": true
+  }
+}

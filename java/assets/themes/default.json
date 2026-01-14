@@ -1,0 +1,16 @@
+{
+  "name": "Type Z Default",
+  "description": "Clean default theme for Type Z Keyboard",
+  "colors": {
+    "main": "#2196F3",
+    "accent": "#1976D2",
+    "background": "#FFFFFF",
+    "text": "#212121",
+    "secondary": "#757575"
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "Type Z Team",
+    "category": "default"
+  }
+}
