@@ -72,7 +72,7 @@ tasks.register('updateBundleResources', Exec) {
 
 tasks.register('updateContributors') {
     def script = file('tools/contributors.py')
-    def outputFile = file('java/src/org.typez.keyboard/uix/settings/pages/credits/Contributors.kt')
+    def outputFile = file('java/src/org.futo.inputmethod.latin/uix/settings/pages/credits/Contributors.kt')
 
     inputs.file script
     outputs.file outputFile
@@ -95,7 +95,7 @@ tasks.register('updateContributors') {
 // preBuild.dependsOn updateLocales
 
 android {
-    namespace 'org.typez.keyboard'
+    namespace 'org.futo.inputmethod.latin'
 
     compileSdk = 35
 
@@ -114,8 +114,8 @@ android {
         versionName getVersionName()
         versionCode getVersionCode()
 
-        applicationId 'org.typez.keyboard'
-        testApplicationId 'org.typez.keyboard.tests'
+        applicationId 'org.futo.inputmethod.latin'
+        testApplicationId 'org.futo.inputmethod.latin.tests'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = false
     }
