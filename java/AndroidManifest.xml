@@ -16,7 +16,6 @@
         android:label="@string/english_ime_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.TypeZKeyboard"
-        android:extractNativeLibs="true"
         android:directBootAware="true"
         android:localeConfig="@array/locales_config"
         tools:targetApi="31">
