@@ -23,14 +23,14 @@ jobs:
         to: ${{ secrets.EMAIL_TO }}
         from: "Type Z Build System <${{ secrets.EMAIL_USERNAME }}>"
         body: |
-          Type Z Keyboard Build Successful
+          Type Z Keyboard (New App) Build Successful
           
           APK Information:
           - Build: ${{ github.event.workflow_run.head_branch }}
           - Commit: ${{ github.event.workflow_run.head_sha }}
           - Time: ${{ github.event.workflow_run.created_at }}
           
-          Download APK:
+          Download APK (New App ID):
           https://github.com/inferno022/Type-Z/actions/runs/${{ github.event.workflow_run.id }}
           
           Features Included:

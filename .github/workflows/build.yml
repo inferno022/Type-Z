@@ -1,4 +1,4 @@
-name: Build Type Z Keyboard
+name: Build Type Z Keyboard (New App ID)
 
 on:
   push:
@@ -63,7 +63,7 @@ jobs:
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
       with:
-        name: Type-Z-Debug
+        name: TypeZ-Keyboard-Debug
         path: build/outputs/apk/unstable/debug/*.apk
         retention-days: 30
       continue-on-error: true
