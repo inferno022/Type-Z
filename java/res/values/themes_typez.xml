@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Type Z Keyboard Theme -->
+    <style name="Theme.TypeZKeyboard" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Type Z Keyboard Settings Theme -->
+    <style name="Theme.TypeZKeyboard.Settings" parent="Theme.TypeZKeyboard">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

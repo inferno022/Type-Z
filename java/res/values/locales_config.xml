@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="locales_config">
+        <item>en-US</item>
+        <item>es-ES</item>
+        <item>fr-FR</item>
+        <item>de-DE</item>
+        <item>it-IT</item>
+        <item>pt-BR</item>
+        <item>ru-RU</item>
+        <item>ja-JP</item>
+        <item>ko-KR</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>ar-SA</item>
+        <item>hi-IN</item>
+        <item>th-TH</item>
+        <item>vi-VN</item>
+    </array>
+</resources>
