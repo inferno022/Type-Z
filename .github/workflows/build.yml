@@ -60,10 +60,14 @@ jobs:
         ls -la build/outputs/apk/unstable/debug/ || true
         ls -la build/outputs/apk/ || true
 
-    - name: Upload Debug APK
+    - name: Upload Debug APK and Create Direct Link
       uses: actions/upload-artifact@v4
       with:
         name: TypeZ-Keyboard-Debug
         path: build/outputs/apk/unstable/debug/*.apk
-        retention-days: 30
-      continue-on-error: true
+        retention-days: 90
+      with:
+        name: TypeZ-Keyboard-Debug
+        path: build/outputs/apk/unstable/debug/*.apk
+        retention-days: 90
+      continue-on-error: false
