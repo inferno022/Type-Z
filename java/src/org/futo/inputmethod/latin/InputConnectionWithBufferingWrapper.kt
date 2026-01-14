@@ -1,13 +1,13 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.os.Build
 import android.util.Log
 import android.view.inputmethod.InputConnection
 import android.view.inputmethod.InputConnectionWrapper
 import android.view.inputmethod.TextAttribute
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.actions.IsDebug
-import org.futo.inputmethod.latin.uix.actions.throwIfDebug
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.actions.IsDebug
+import com.typez.keyboard.app.uix.actions.throwIfDebug
 
 interface IBufferedInputConnection {
     fun send()

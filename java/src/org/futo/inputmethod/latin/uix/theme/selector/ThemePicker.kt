@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme.selector
+package com.typez.keyboard.app.uix.theme.selector
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -49,31 +49,31 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.KeyBordersSetting
-import org.futo.inputmethod.latin.uix.KeyboardBackground
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
-import org.futo.inputmethod.latin.uix.THEME_KEY
-import org.futo.inputmethod.latin.uix.actions.BugInfo
-import org.futo.inputmethod.latin.uix.actions.BugViewerState
-import org.futo.inputmethod.latin.uix.setSetting
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.SettingToggleDataStore
-import org.futo.inputmethod.latin.uix.settings.useDataStore
-import org.futo.inputmethod.latin.uix.theme.ZipThemes
-import org.futo.inputmethod.latin.uix.theme.ThemeOption
-import org.futo.inputmethod.latin.uix.theme.ThemeOptionKeys
-import org.futo.inputmethod.latin.uix.theme.Typography
-import org.futo.inputmethod.latin.uix.theme.UixThemeWrapper
-import org.futo.inputmethod.latin.uix.theme.defaultThemeOption
-import org.futo.inputmethod.latin.uix.theme.getThemeOption
-import org.futo.inputmethod.latin.uix.theme.presets.AMOLEDDarkPurple
-import org.futo.inputmethod.latin.uix.theme.presets.ClassicMaterialDark
-import org.futo.inputmethod.latin.uix.theme.presets.DefaultLightScheme
-import org.futo.inputmethod.latin.uix.theme.presets.DynamicDarkTheme
-import org.futo.inputmethod.latin.uix.theme.presets.DynamicLightTheme
-import org.futo.inputmethod.latin.uix.theme.presets.DynamicSystemTheme
-import org.futo.inputmethod.latin.uix.theme.presets.VoiceInputTheme
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.KeyBordersSetting
+import com.typez.keyboard.app.uix.KeyboardBackground
+import com.typez.keyboard.app.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.THEME_KEY
+import com.typez.keyboard.app.uix.actions.BugInfo
+import com.typez.keyboard.app.uix.actions.BugViewerState
+import com.typez.keyboard.app.uix.setSetting
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.SettingToggleDataStore
+import com.typez.keyboard.app.uix.settings.useDataStore
+import com.typez.keyboard.app.uix.theme.ZipThemes
+import com.typez.keyboard.app.uix.theme.ThemeOption
+import com.typez.keyboard.app.uix.theme.ThemeOptionKeys
+import com.typez.keyboard.app.uix.theme.Typography
+import com.typez.keyboard.app.uix.theme.UixThemeWrapper
+import com.typez.keyboard.app.uix.theme.defaultThemeOption
+import com.typez.keyboard.app.uix.theme.getThemeOption
+import com.typez.keyboard.app.uix.theme.presets.AMOLEDDarkPurple
+import com.typez.keyboard.app.uix.theme.presets.ClassicMaterialDark
+import com.typez.keyboard.app.uix.theme.presets.DefaultLightScheme
+import com.typez.keyboard.app.uix.theme.presets.DynamicDarkTheme
+import com.typez.keyboard.app.uix.theme.presets.DynamicLightTheme
+import com.typez.keyboard.app.uix.theme.presets.DynamicSystemTheme
+import com.typez.keyboard.app.uix.theme.presets.VoiceInputTheme
 
 @Composable
 fun ThemePreview(theme: ThemeOption, isSelected: Boolean = false, overrideName: String? = null, modifier: Modifier = Modifier, onClick: () -> Unit = { }) {

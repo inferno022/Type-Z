@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
@@ -7,27 +7,27 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.actions.ActionCategory
-import org.futo.inputmethod.latin.uix.actions.ActionsEditor
-import org.futo.inputmethod.latin.uix.actions.ActionsSettings
-import org.futo.inputmethod.latin.uix.actions.AllActionsMap
-import org.futo.inputmethod.latin.uix.actions.EmojiAction
-import org.futo.inputmethod.latin.uix.actions.SwitchLanguageAction
-import org.futo.inputmethod.latin.uix.actions.ensureWellFormed
-import org.futo.inputmethod.latin.uix.actions.toActionEditorItems
-import org.futo.inputmethod.latin.uix.actions.toActionMap
-import org.futo.inputmethod.latin.uix.actions.updateSettingsWithNewActions
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.SettingToggleRaw
-import org.futo.inputmethod.latin.uix.settings.UserSetting
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.useDataStoreValue
-import org.futo.inputmethod.latin.uix.settings.userSettingDecorationOnly
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
-import org.futo.inputmethod.latin.uix.urlEncode
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.actions.ActionCategory
+import com.typez.keyboard.app.uix.actions.ActionsEditor
+import com.typez.keyboard.app.uix.actions.ActionsSettings
+import com.typez.keyboard.app.uix.actions.AllActionsMap
+import com.typez.keyboard.app.uix.actions.EmojiAction
+import com.typez.keyboard.app.uix.actions.SwitchLanguageAction
+import com.typez.keyboard.app.uix.actions.ensureWellFormed
+import com.typez.keyboard.app.uix.actions.toActionEditorItems
+import com.typez.keyboard.app.uix.actions.toActionMap
+import com.typez.keyboard.app.uix.actions.updateSettingsWithNewActions
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.SettingToggleRaw
+import com.typez.keyboard.app.uix.settings.UserSetting
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.useDataStoreValue
+import com.typez.keyboard.app.uix.settings.userSettingDecorationOnly
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.uix.urlEncode
 
 val ActionsScreen = UserSettingsMenu(
     title = R.string.action_settings_title,

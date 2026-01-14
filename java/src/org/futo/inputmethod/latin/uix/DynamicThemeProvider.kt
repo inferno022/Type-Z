@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -10,8 +10,8 @@ import androidx.compose.ui.graphics.Color
 import org.futo.inputmethod.keyboard.Key
 import org.futo.inputmethod.keyboard.Keyboard
 import org.futo.inputmethod.keyboard.internal.KeyDrawParams
-import org.futo.inputmethod.latin.uix.theme.KeyBackground
-import org.futo.inputmethod.latin.uix.theme.KeyDrawingConfiguration
+import com.typez.keyboard.app.uix.theme.KeyBackground
+import com.typez.keyboard.app.uix.theme.KeyDrawingConfiguration
 import org.futo.inputmethod.v2keyboard.Direction
 import org.futo.inputmethod.v2keyboard.KeyVisualStyle
 

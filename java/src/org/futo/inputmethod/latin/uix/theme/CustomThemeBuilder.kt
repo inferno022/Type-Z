@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.annotation.SuppressLint
 import androidx.compose.ui.geometry.Rect
@@ -11,9 +11,9 @@ import com.google.android.material.color.utilities.MathUtils
 import com.google.android.material.color.utilities.TemperatureCache
 import com.google.android.material.color.utilities.TonalPalette
 import com.google.android.material.color.utilities.Variant
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
-import org.futo.inputmethod.latin.uix.wrapDarkColorScheme
-import org.futo.inputmethod.latin.uix.wrapLightColorScheme
+import com.typez.keyboard.app.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.wrapDarkColorScheme
+import com.typez.keyboard.app.uix.wrapLightColorScheme
 import kotlin.math.pow
 
 @SuppressLint("RestrictedApi")

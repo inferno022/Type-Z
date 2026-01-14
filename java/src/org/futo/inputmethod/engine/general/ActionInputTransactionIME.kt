@@ -1,17 +1,17 @@
-package org.futo.inputmethod.engine.general
+package com.typez.keyboard.app.engine.general
 
-import org.futo.inputmethod.engine.IMEHelper
-import org.futo.inputmethod.engine.IMEInterface
+import com.typez.keyboard.app.engine.IMEHelper
+import com.typez.keyboard.app.engine.IMEInterface
 import org.futo.inputmethod.event.Event
-import org.futo.inputmethod.latin.InputConnectionInternalComposingWrapper
-import org.futo.inputmethod.latin.SupportsNonComposing
-import org.futo.inputmethod.latin.VoiceInputAlternativeIC
-import org.futo.inputmethod.latin.VoiceInputAlternativeICComposing
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.common.InputPointers
-import org.futo.inputmethod.latin.uix.ActionInputTransaction
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.utils.TextContext
+import com.typez.keyboard.app.InputConnectionInternalComposingWrapper
+import com.typez.keyboard.app.SupportsNonComposing
+import com.typez.keyboard.app.VoiceInputAlternativeIC
+import com.typez.keyboard.app.VoiceInputAlternativeICComposing
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.common.InputPointers
+import com.typez.keyboard.app.uix.ActionInputTransaction
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.utils.TextContext
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
 
 class ActionInputTransactionIME(val helper: IMEHelper) : IMEInterface, ActionInputTransaction {

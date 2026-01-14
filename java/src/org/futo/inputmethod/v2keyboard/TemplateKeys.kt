@@ -7,9 +7,9 @@ import org.futo.inputmethod.keyboard.KeyboardId
 import org.futo.inputmethod.keyboard.internal.KeyboardIconsSet
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutKind
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.uix.actions.AllActionKeys
-import org.futo.inputmethod.latin.utils.InputTypeUtils
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.uix.actions.AllActionKeys
+import com.typez.keyboard.app.utils.InputTypeUtils
 
 val FunctionalAttributes = KeyAttributes(
     width = KeyWidth.FunctionalKey,

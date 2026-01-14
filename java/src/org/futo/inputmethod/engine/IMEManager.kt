@@ -1,4 +1,4 @@
-package org.futo.inputmethod.engine
+package com.typez.keyboard.app.engine
 
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringSetPreferencesKey
@@ -10,19 +10,19 @@ import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.futo.inputmethod.annotations.UsedForTesting
-import org.futo.inputmethod.engine.general.ActionInputTransactionIME
-import org.futo.inputmethod.engine.general.GeneralIME
-// import org.futo.inputmethod.engine.general.JapaneseIME  // Temporarily disabled
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.settings.SettingsValues
-import org.futo.inputmethod.latin.uix.ActionInputTransaction
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.actions.throwIfDebug
-import org.futo.inputmethod.latin.uix.dataStore
-import org.futo.inputmethod.latin.uix.deferSetSetting
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.isDirectBootUnlocked
+import com.typez.keyboard.app.engine.general.ActionInputTransactionIME
+import com.typez.keyboard.app.engine.general.GeneralIME
+// import com.typez.keyboard.app.engine.general.JapaneseIME  // Temporarily disabled
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.settings.SettingsValues
+import com.typez.keyboard.app.uix.ActionInputTransaction
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.actions.throwIfDebug
+import com.typez.keyboard.app.uix.dataStore
+import com.typez.keyboard.app.uix.deferSetSetting
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.isDirectBootUnlocked
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
 
 enum class IMEMessage {

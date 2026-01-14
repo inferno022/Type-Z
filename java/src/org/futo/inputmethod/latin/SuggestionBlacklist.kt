@@ -1,16 +1,16 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.content.Context
 import androidx.lifecycle.LifecycleCoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.SUGGESTION_BLACKLIST
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.getSettingFlow
-import org.futo.inputmethod.latin.uix.settings.badWords
-import org.futo.inputmethod.latin.uix.settings.isFiltered
+import com.typez.keyboard.app.SuggestedWords.SuggestedWordInfo
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.SUGGESTION_BLACKLIST
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.getSettingFlow
+import com.typez.keyboard.app.uix.settings.badWords
+import com.typez.keyboard.app.uix.settings.isFiltered
 
 class SuggestionBlacklist(val settings: Settings, val context: Context, val lifecycleScope: LifecycleCoroutineScope) {
     var offensiveWordsAdded = false

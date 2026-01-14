@@ -1,6 +1,6 @@
-package org.futo.inputmethod.latin.uix.utils
+package com.typez.keyboard.app.uix.utils
 
-import org.futo.inputmethod.latin.RichInputMethodManager
+import com.typez.keyboard.app.RichInputMethodManager
 
 data class TextContext(
     val beforeCursor: CharSequence?,

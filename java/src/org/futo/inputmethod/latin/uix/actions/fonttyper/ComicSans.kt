@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.actions.fonttyper
+package com.typez.keyboard.app.uix.actions.fonttyper
 
 import android.content.Context
 import android.graphics.Canvas
@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.graphics.createBitmap
-import org.futo.inputmethod.latin.R
+import com.typez.keyboard.app.R
 
 object ComicSansRenderer : WordImageRenderer() {
     override val name: Int

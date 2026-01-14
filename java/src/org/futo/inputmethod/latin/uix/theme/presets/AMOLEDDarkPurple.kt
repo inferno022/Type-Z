@@ -1,12 +1,12 @@
-package org.futo.inputmethod.latin.uix.theme.presets
+package com.typez.keyboard.app.uix.theme.presets
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.extendedDarkColorScheme
-import org.futo.inputmethod.latin.uix.theme.ThemeOption
-import org.futo.inputmethod.latin.uix.theme.selector.ThemePreview
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.extendedDarkColorScheme
+import com.typez.keyboard.app.uix.theme.ThemeOption
+import com.typez.keyboard.app.uix.theme.selector.ThemePreview
 
 private val darkScheme = extendedDarkColorScheme(
     primary=Color(0xFFD0BCFF),

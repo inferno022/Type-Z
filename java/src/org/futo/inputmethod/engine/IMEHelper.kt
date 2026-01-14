@@ -1,4 +1,4 @@
-package org.futo.inputmethod.engine
+package com.typez.keyboard.app.engine
 
 import android.content.Context
 import android.graphics.Rect
@@ -6,11 +6,11 @@ import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputConnection
 import androidx.lifecycle.LifecycleCoroutineScope
 import androidx.lifecycle.lifecycleScope
-import org.futo.inputmethod.engine.general.ActionInputTransactionIME
+import com.typez.keyboard.app.engine.general.ActionInputTransactionIME
 import org.futo.inputmethod.keyboard.KeyboardSwitcher
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.SuggestedWords
-import org.futo.inputmethod.latin.settings.Settings
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.SuggestedWords
+import com.typez.keyboard.app.settings.Settings
 
 interface InputMethodConnectionProvider {
     fun getCurrentInputConnection(): InputConnection?

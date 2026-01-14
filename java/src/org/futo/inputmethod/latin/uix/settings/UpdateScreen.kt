@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings
+package com.typez.keyboard.app.uix.settings
 
 import android.app.Activity
 import android.app.PendingIntent.FLAG_MUTABLE
@@ -43,9 +43,9 @@ import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 //import okhttp3.OkHttpClient
 //import okhttp3.Request
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.InfoDialog
-import org.futo.inputmethod.latin.uix.getSetting
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.InfoDialog
+import com.typez.keyboard.app.uix.getSetting
 import org.futo.inputmethod.updates.InstallReceiver
 import org.futo.inputmethod.updates.LAST_UPDATE_CHECK_RESULT
 import org.futo.inputmethod.updates.UpdateResult

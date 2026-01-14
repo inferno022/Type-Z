@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.xlm
+package com.typez.keyboard.app.xlm
 
 import android.content.Context
 import android.util.Log
@@ -7,12 +7,12 @@ import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.newSingleThreadContext
 import kotlinx.coroutines.withContext
-import org.futo.inputmethod.latin.NgramContext
-import org.futo.inputmethod.latin.SuggestedWords
-import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
-import org.futo.inputmethod.latin.common.ComposedData
-import org.futo.inputmethod.latin.settings.SettingsValuesForSuggestion
-import org.futo.inputmethod.latin.utils.JniUtils
+import com.typez.keyboard.app.NgramContext
+import com.typez.keyboard.app.SuggestedWords
+import com.typez.keyboard.app.SuggestedWords.SuggestedWordInfo
+import com.typez.keyboard.app.common.ComposedData
+import com.typez.keyboard.app.settings.SettingsValuesForSuggestion
+import com.typez.keyboard.app.utils.JniUtils
 import java.util.Arrays
 import java.util.Locale
 

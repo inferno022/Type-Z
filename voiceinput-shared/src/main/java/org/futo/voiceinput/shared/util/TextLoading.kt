@@ -1,4 +1,4 @@
-package org.futo.voiceinput.shared.util
+package com.typez.keyboard.app.voiceinput.shared.util
 
 import android.content.Context
 import android.content.res.Resources

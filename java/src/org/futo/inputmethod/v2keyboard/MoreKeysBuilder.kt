@@ -4,7 +4,7 @@ import org.futo.inputmethod.keyboard.KeyConsts
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
 import org.futo.inputmethod.keyboard.internal.MoreKeySpec
 import org.futo.inputmethod.keyboard.internal.isAlphabet
-import org.futo.inputmethod.latin.settings.LongPressKey
+import com.typez.keyboard.app.settings.LongPressKey
 
 typealias MoreKeys = List<String>
 

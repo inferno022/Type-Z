@@ -1,11 +1,11 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.content.Context
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.os.Build
 import android.util.Log
-import org.futo.inputmethod.latin.uix.actions.throwIfDebug
+import com.typez.keyboard.app.uix.actions.throwIfDebug
 import java.io.EOFException
 import java.io.File
 import java.io.FileInputStream

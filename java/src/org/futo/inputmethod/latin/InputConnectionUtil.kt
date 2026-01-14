@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.os.Build
 import android.view.inputmethod.ExtractedTextRequest

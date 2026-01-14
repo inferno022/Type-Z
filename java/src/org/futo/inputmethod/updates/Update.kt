@@ -29,16 +29,16 @@ import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.BuildConfig
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.setSetting
-import org.futo.inputmethod.latin.uix.settings.SettingItem
-import org.futo.inputmethod.latin.uix.settings.pages.ParagraphText
-import org.futo.inputmethod.latin.uix.settings.pages.PaymentSurface
-import org.futo.inputmethod.latin.uix.settings.pages.PaymentSurfaceHeading
-import org.futo.inputmethod.latin.uix.settings.useDataStore
+import com.typez.keyboard.app.BuildConfig
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.setSetting
+import com.typez.keyboard.app.uix.settings.SettingItem
+import com.typez.keyboard.app.uix.settings.pages.ParagraphText
+import com.typez.keyboard.app.uix.settings.pages.PaymentSurface
+import com.typez.keyboard.app.uix.settings.pages.PaymentSurfaceHeading
+import com.typez.keyboard.app.uix.settings.useDataStore
 
 val LAST_UPDATE_CHECK_RESULT = stringPreferencesKey("last_update_check_result")
 val LAST_UPDATE_CHECK_FAILED = booleanPreferencesKey("last_update_check_failed")

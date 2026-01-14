@@ -8,9 +8,9 @@ import org.futo.inputmethod.keyboard.KeyboardId
 import org.futo.inputmethod.keyboard.internal.KeySpecParser
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
 import org.futo.inputmethod.keyboard.internal.MoreKeySpec
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.common.StringUtils
-import org.futo.inputmethod.latin.settings.LongPressKeySettings
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.common.StringUtils
+import com.typez.keyboard.app.settings.LongPressKeySettings
 
 /**
  * Width tokens for keys. Rather than explicitly specifying a width in percentage as is common in

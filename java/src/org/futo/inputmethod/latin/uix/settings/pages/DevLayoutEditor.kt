@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import android.content.Context
 import android.util.Log
@@ -30,18 +30,18 @@ import androidx.navigation.compose.rememberNavController
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.RichInputMethodSubtype
-import org.futo.inputmethod.latin.Subtypes
-import org.futo.inputmethod.latin.SubtypesSetting
-import org.futo.inputmethod.latin.uix.LocalKeyboardScheme
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.getSettingBlocking
-import org.futo.inputmethod.latin.uix.setSettingBlocking
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.RichInputMethodSubtype
+import com.typez.keyboard.app.Subtypes
+import com.typez.keyboard.app.SubtypesSetting
+import com.typez.keyboard.app.uix.LocalKeyboardScheme
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.getSettingBlocking
+import com.typez.keyboard.app.uix.setSettingBlocking
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
 import org.futo.inputmethod.updates.openURI
 import org.futo.inputmethod.v2keyboard.Keyboard
 import org.futo.inputmethod.v2keyboard.parseKeyboardYamlString

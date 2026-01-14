@@ -8,8 +8,8 @@ import org.futo.inputmethod.event.Event
 import org.futo.inputmethod.keyboard.Key
 import org.futo.inputmethod.keyboard.Keyboard
 import org.futo.inputmethod.keyboard.KeyboardId
-import org.futo.inputmethod.latin.BuildConfig
-import org.futo.inputmethod.latin.common.Constants
+import com.typez.keyboard.app.BuildConfig
+import com.typez.keyboard.app.common.Constants
 import org.futo.inputmethod.v2keyboard.getKeyboardMode
 
 enum class KeyboardLayoutKind {

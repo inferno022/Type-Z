@@ -1,20 +1,20 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import android.content.Context
 import androidx.collection.mutableIntSetOf
 import androidx.core.content.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import org.futo.inputmethod.keyboard.internal.KeyboardCodesSet
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.PreferenceUtils
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.USE_SYSTEM_VOICE_INPUT
-import org.futo.inputmethod.latin.uix.actions.fonttyper.FontTyperAction
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.setSettingBlocking
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.PreferenceUtils
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.USE_SYSTEM_VOICE_INPUT
+import com.typez.keyboard.app.uix.actions.fonttyper.FontTyperAction
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.setSettingBlocking
 
 // Note: indices must stay stable
 val AllActionsMap = mapOf(

@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.xlm
+package com.typez.keyboard.app.xlm
 
 import org.futo.inputmethod.keyboard.KeyDetector
 import kotlin.math.sqrt

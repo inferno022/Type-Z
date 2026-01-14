@@ -3,7 +3,7 @@ package org.futo.inputmethod.event.combiners
 import android.icu.text.Normalizer2
 import org.futo.inputmethod.event.Combiner
 import org.futo.inputmethod.event.Event
-import org.futo.inputmethod.latin.common.Constants
+import com.typez.keyboard.app.common.Constants
 import java.util.ArrayList
 
 class NFCNormalizingCombiner : Combiner {

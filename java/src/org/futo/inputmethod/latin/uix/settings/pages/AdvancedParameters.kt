@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
@@ -6,13 +6,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.settings.SettingSlider
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.xlm.AutocorrectThresholdSetting
-import org.futo.inputmethod.latin.xlm.BinaryDictTransformerWeightSetting
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.settings.SettingSlider
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.xlm.AutocorrectThresholdSetting
+import com.typez.keyboard.app.xlm.BinaryDictTransformerWeightSetting
 
 @Preview
 @Composable

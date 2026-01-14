@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.modelmanager
+package com.typez.keyboard.app.uix.settings.pages.modelmanager
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -23,19 +23,19 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.launch
-import org.futo.inputmethod.latin.uix.USE_TRANSFORMER_FINETUNING
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.useDataStore
-import org.futo.inputmethod.latin.uix.theme.Typography
-import org.futo.inputmethod.latin.uix.urlEncode
-import org.futo.inputmethod.latin.xlm.MODEL_OPTION_KEY
-import org.futo.inputmethod.latin.xlm.ModelInfo
-import org.futo.inputmethod.latin.xlm.ModelInfoLoader
-import org.futo.inputmethod.latin.xlm.ModelPaths
+import com.typez.keyboard.app.uix.USE_TRANSFORMER_FINETUNING
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.useDataStore
+import com.typez.keyboard.app.uix.theme.Typography
+import com.typez.keyboard.app.uix.urlEncode
+import com.typez.keyboard.app.xlm.MODEL_OPTION_KEY
+import com.typez.keyboard.app.xlm.ModelInfo
+import com.typez.keyboard.app.xlm.ModelInfoLoader
+import com.typez.keyboard.app.xlm.ModelPaths
 import org.futo.inputmethod.updates.openURI
 import java.io.File
 

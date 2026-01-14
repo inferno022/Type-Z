@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.graphics.Canvas
@@ -30,13 +30,13 @@ import org.futo.inputmethod.keyboard.Key
 import org.futo.inputmethod.keyboard.Keyboard
 import org.futo.inputmethod.keyboard.internal.KeyDrawParams
 import org.futo.inputmethod.keyboard.internal.KeyboardIconsSet
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.actions.AllActions
-import org.futo.inputmethod.latin.uix.actions.AllActionsMap
-import org.futo.inputmethod.latin.uix.theme.AdvancedThemeMatcher
-import org.futo.inputmethod.latin.uix.theme.KeyBackground
-import org.futo.inputmethod.latin.uix.theme.KeyDrawingConfiguration
-import org.futo.inputmethod.latin.uix.utils.toNinePatchDrawable
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.actions.AllActions
+import com.typez.keyboard.app.uix.actions.AllActionsMap
+import com.typez.keyboard.app.uix.theme.AdvancedThemeMatcher
+import com.typez.keyboard.app.uix.theme.KeyBackground
+import com.typez.keyboard.app.uix.theme.KeyDrawingConfiguration
+import com.typez.keyboard.app.uix.utils.toNinePatchDrawable
 import org.futo.inputmethod.v2keyboard.Direction
 import org.futo.inputmethod.v2keyboard.KeyVisualStyle
 

@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.modelmanager
+package com.typez.keyboard.app.uix.settings.pages.modelmanager
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -14,14 +14,14 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.runBlocking
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.xlm.ModelInfo
-import org.futo.inputmethod.latin.xlm.ModelPaths
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.xlm.ModelInfo
+import com.typez.keyboard.app.xlm.ModelPaths
 import org.futo.inputmethod.updates.openURI
 import java.net.URLEncoder
 import java.util.Locale

@@ -1,22 +1,22 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import android.content.Intent
 import androidx.compose.runtime.Composable
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.AUDIO_FOCUS
-import org.futo.inputmethod.latin.uix.CAN_EXPAND_SPACE
-import org.futo.inputmethod.latin.uix.DISALLOW_SYMBOLS
-import org.futo.inputmethod.latin.uix.ENABLE_SOUND
-import org.futo.inputmethod.latin.uix.PREFER_BLUETOOTH
-import org.futo.inputmethod.latin.uix.USE_PERSONAL_DICT
-import org.futo.inputmethod.latin.uix.USE_SYSTEM_VOICE_INPUT
-import org.futo.inputmethod.latin.uix.USE_VAD_AUTOSTOP
-import org.futo.inputmethod.latin.uix.VERBOSE_PROGRESS
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.useDataStoreValue
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
-import org.futo.inputmethod.latin.uix.settings.userSettingToggleDataStore
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.AUDIO_FOCUS
+import com.typez.keyboard.app.uix.CAN_EXPAND_SPACE
+import com.typez.keyboard.app.uix.DISALLOW_SYMBOLS
+import com.typez.keyboard.app.uix.ENABLE_SOUND
+import com.typez.keyboard.app.uix.PREFER_BLUETOOTH
+import com.typez.keyboard.app.uix.USE_PERSONAL_DICT
+import com.typez.keyboard.app.uix.USE_SYSTEM_VOICE_INPUT
+import com.typez.keyboard.app.uix.USE_VAD_AUTOSTOP
+import com.typez.keyboard.app.uix.VERBOSE_PROGRESS
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.useDataStoreValue
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.uix.settings.userSettingToggleDataStore
 
 private val visibilityCheckNotSystemVoiceInput = @Composable {
     useDataStoreValue(USE_SYSTEM_VOICE_INPUT) == false

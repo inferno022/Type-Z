@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import androidx.annotation.FloatRange
 import androidx.compose.material3.ColorScheme
@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.colorspace.ColorSpaces
 import androidx.core.math.MathUtils
-import org.futo.inputmethod.latin.uix.theme.AdvancedThemeOptions
+import com.typez.keyboard.app.uix.theme.AdvancedThemeOptions
 import kotlin.math.pow
 import kotlin.math.roundToInt
 

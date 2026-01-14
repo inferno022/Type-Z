@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.app.Activity
 import android.content.Context
@@ -13,11 +13,11 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
-import org.futo.inputmethod.latin.uix.LocalKeyboardScheme
-import org.futo.inputmethod.latin.uix.THEME_KEY
-import org.futo.inputmethod.latin.uix.settings.useDataStoreValue
-import org.futo.inputmethod.latin.uix.theme.presets.DefaultDarkScheme
+import com.typez.keyboard.app.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.LocalKeyboardScheme
+import com.typez.keyboard.app.uix.THEME_KEY
+import com.typez.keyboard.app.uix.settings.useDataStoreValue
+import com.typez.keyboard.app.uix.theme.presets.DefaultDarkScheme
 import kotlin.math.sqrt
 
 fun applyWindowColors(window: Window, @ColorInt color: Int, statusBar: Boolean) {

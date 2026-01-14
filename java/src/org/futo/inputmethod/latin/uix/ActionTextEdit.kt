@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.graphics.RectF

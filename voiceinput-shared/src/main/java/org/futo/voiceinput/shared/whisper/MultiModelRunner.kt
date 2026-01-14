@@ -1,18 +1,18 @@
-package org.futo.voiceinput.shared.whisper
+package com.typez.keyboard.app.voiceinput.shared.whisper
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
-import org.futo.voiceinput.shared.ggml.BailLanguageException
-import org.futo.voiceinput.shared.ggml.DecodingMode
-import org.futo.voiceinput.shared.ggml.InferenceCancelledException
-import org.futo.voiceinput.shared.types.InferenceState
-import org.futo.voiceinput.shared.types.Language
-import org.futo.voiceinput.shared.types.ModelInferenceCallback
-import org.futo.voiceinput.shared.types.ModelLoader
-import org.futo.voiceinput.shared.types.getLanguageFromWhisperString
-import org.futo.voiceinput.shared.types.toWhisperString
+import com.typez.keyboard.app.voiceinput.shared.ggml.BailLanguageException
+import com.typez.keyboard.app.voiceinput.shared.ggml.DecodingMode
+import com.typez.keyboard.app.voiceinput.shared.ggml.InferenceCancelledException
+import com.typez.keyboard.app.voiceinput.shared.types.InferenceState
+import com.typez.keyboard.app.voiceinput.shared.types.Language
+import com.typez.keyboard.app.voiceinput.shared.types.ModelInferenceCallback
+import com.typez.keyboard.app.voiceinput.shared.types.ModelLoader
+import com.typez.keyboard.app.voiceinput.shared.types.getLanguageFromWhisperString
+import com.typez.keyboard.app.voiceinput.shared.types.toWhisperString
 
 
 data class MultiModelRunConfiguration(

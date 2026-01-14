@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import android.os.Build
 import android.os.Debug
@@ -22,16 +22,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.futo.inputmethod.engine.general.GeneralIME
-// import org.futo.inputmethod.engine.general.JapaneseIME  // Temporarily disabled
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.ActionWindow
-import org.futo.inputmethod.latin.uix.LocalFoldingState
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.theme.ThemeOptions
-import org.futo.inputmethod.latin.uix.theme.Typography
+import com.typez.keyboard.app.engine.general.GeneralIME
+// import com.typez.keyboard.app.engine.general.JapaneseIME  // Temporarily disabled
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.ActionWindow
+import com.typez.keyboard.app.uix.LocalFoldingState
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.theme.ThemeOptions
+import com.typez.keyboard.app.uix.theme.Typography
 import org.futo.inputmethod.v2keyboard.KeyboardSizeStateProvider
 
 val DebugLabel = Typography.Small.copy(fontFamily = FontFamily.Monospace)

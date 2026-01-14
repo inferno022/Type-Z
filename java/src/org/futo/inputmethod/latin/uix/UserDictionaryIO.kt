@@ -1,10 +1,10 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import android.provider.UserDictionary
-import org.futo.inputmethod.latin.localeFromString
+import com.typez.keyboard.app.localeFromString
 
 class UserDictionaryIO(val context: Context) {
     private val contentResolver = context.applicationContext.contentResolver

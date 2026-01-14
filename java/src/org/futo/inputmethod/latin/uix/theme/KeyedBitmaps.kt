@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 
 import org.futo.inputmethod.keyboard.Key

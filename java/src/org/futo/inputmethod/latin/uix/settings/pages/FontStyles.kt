@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -17,14 +17,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.LocalManager
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.actions.fonttyper.FontTyperAction
-import org.futo.inputmethod.latin.uix.actions.fonttyper.PresetPicker
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.UserSetting
-import org.futo.inputmethod.latin.uix.settings.pages.VerticalGrid
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.LocalManager
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.actions.fonttyper.FontTyperAction
+import com.typez.keyboard.app.uix.actions.fonttyper.PresetPicker
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.UserSetting
+import com.typez.keyboard.app.uix.settings.pages.VerticalGrid
 
 @Composable
 fun FontStylesScreen(navController: NavController) {

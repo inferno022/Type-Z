@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.themes
+package com.typez.keyboard.app.uix.settings.pages.themes
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background

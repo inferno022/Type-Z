@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -23,15 +23,15 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.ActionBarHeight
-import org.futo.inputmethod.latin.uix.ActionWindow
-import org.futo.inputmethod.latin.uix.CloseResult
-import org.futo.inputmethod.latin.uix.TutorialMode
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.ActionBarHeight
+import com.typez.keyboard.app.uix.ActionWindow
+import com.typez.keyboard.app.uix.CloseResult
+import com.typez.keyboard.app.uix.TutorialMode
 import org.futo.inputmethod.v2keyboard.KeyboardMode
 import org.futo.inputmethod.v2keyboard.KeyboardSizingCalculator
-import org.futo.inputmethod.latin.uix.theme.Typography
+import com.typez.keyboard.app.uix.theme.Typography
 
 @Composable
 internal fun RowScope.KeyboardMode(iconRes: Int, checkedIconRes: Int, name: String, sizingCalculator: KeyboardSizingCalculator, mode: KeyboardMode, isChecked: Boolean) {

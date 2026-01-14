@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.modelmanager
+package com.typez.keyboard.app.uix.settings.pages.modelmanager
 
 import android.app.Activity
 import android.content.Context
@@ -24,11 +24,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.uix.settings.EXPORT_GGUF_MODEL_REQUEST
-import org.futo.inputmethod.latin.uix.settings.IMPORT_GGUF_MODEL_REQUEST
-import org.futo.inputmethod.latin.uix.settings.SettingsActivity
-import org.futo.inputmethod.latin.xlm.ModelInfo
-import org.futo.inputmethod.latin.xlm.ModelInfoLoader
+import com.typez.keyboard.app.uix.settings.EXPORT_GGUF_MODEL_REQUEST
+import com.typez.keyboard.app.uix.settings.IMPORT_GGUF_MODEL_REQUEST
+import com.typez.keyboard.app.uix.settings.SettingsActivity
+import com.typez.keyboard.app.xlm.ModelInfo
+import com.typez.keyboard.app.xlm.ModelInfoLoader
 import java.io.File
 import java.text.CharacterIterator
 import java.text.StringCharacterIterator

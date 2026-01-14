@@ -1,8 +1,8 @@
-package org.futo.voiceinput.shared.whisper
+package com.typez.keyboard.app.voiceinput.shared.whisper
 
 import android.content.Context
-import org.futo.voiceinput.shared.ggml.WhisperGGML
-import org.futo.voiceinput.shared.types.ModelLoader
+import com.typez.keyboard.app.voiceinput.shared.ggml.WhisperGGML
+import com.typez.keyboard.app.voiceinput.shared.types.ModelLoader
 
 
 class ModelManager(

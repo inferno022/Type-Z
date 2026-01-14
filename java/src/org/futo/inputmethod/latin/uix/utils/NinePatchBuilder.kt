@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.utils
+package com.typez.keyboard.app.uix.utils
 
 import android.content.res.Resources
 import android.graphics.Bitmap

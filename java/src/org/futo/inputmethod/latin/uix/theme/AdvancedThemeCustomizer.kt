@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.content.Context
 import android.graphics.Rect
@@ -9,8 +9,8 @@ import androidx.compose.ui.graphics.toArgb
 import org.futo.inputmethod.keyboard.Key
 import org.futo.inputmethod.keyboard.Keyboard
 import org.futo.inputmethod.keyboard.internal.KeyDrawParams
-import org.futo.inputmethod.latin.uix.DynamicThemeProvider
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.DynamicThemeProvider
+import com.typez.keyboard.app.uix.KeyboardColorScheme
 
 
 data class KeyDrawingConfiguration(

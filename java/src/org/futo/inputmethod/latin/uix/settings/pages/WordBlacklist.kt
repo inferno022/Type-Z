@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,18 +25,18 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.SUGGESTION_BLACKLIST
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.settings.SettingItem
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.useDataStore
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
-import org.futo.inputmethod.latin.uix.settings.userSettingToggleSharedPrefs
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.SUGGESTION_BLACKLIST
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.settings.SettingItem
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.useDataStore
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.uix.settings.userSettingToggleSharedPrefs
 
 @Composable
 fun BlacklistedWord(word: String, remove: () -> Unit) { 

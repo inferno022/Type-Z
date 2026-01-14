@@ -1,9 +1,9 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import android.content.Intent
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.settings.SettingsActivity
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.settings.SettingsActivity
 
 val SettingsAction = Action(
     icon = R.drawable.settings,

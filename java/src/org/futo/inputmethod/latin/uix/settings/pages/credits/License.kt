@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.credits
+package com.typez.keyboard.app.uix.settings.pages.credits
 
 import android.content.Context
 

@@ -1,14 +1,14 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.ui.res.stringResource
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.SettingsExporter
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.userSettingDecorationOnly
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.SettingsExporter
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.userSettingDecorationOnly
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
 
 val MiscMenu = UserSettingsMenu(
     title = R.string.misc_settings_title,

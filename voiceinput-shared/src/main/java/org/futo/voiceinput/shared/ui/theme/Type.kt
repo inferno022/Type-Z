@@ -1,4 +1,4 @@
-package org.futo.voiceinput.shared.ui.theme
+package com.typez.keyboard.app.voiceinput.shared.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

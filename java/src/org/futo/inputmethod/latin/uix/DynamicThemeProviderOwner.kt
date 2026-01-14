@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 interface DynamicThemeProviderOwner {
     fun getDrawableProvider(): DynamicThemeProvider

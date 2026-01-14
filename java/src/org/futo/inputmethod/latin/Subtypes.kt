@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.content.Context
 import android.content.Intent
@@ -38,18 +38,18 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.getSettingBlocking
-import org.futo.inputmethod.latin.uix.isDirectBootUnlocked
-import org.futo.inputmethod.latin.uix.setSettingBlocking
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.SettingsActivity
-import org.futo.inputmethod.latin.uix.settings.useDataStoreValue
-import org.futo.inputmethod.latin.uix.theme.Typography
-import org.futo.inputmethod.latin.utils.SubtypeLocaleUtils
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.getSettingBlocking
+import com.typez.keyboard.app.uix.isDirectBootUnlocked
+import com.typez.keyboard.app.uix.setSettingBlocking
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.SettingsActivity
+import com.typez.keyboard.app.uix.settings.useDataStoreValue
+import com.typez.keyboard.app.uix.theme.Typography
+import com.typez.keyboard.app.utils.SubtypeLocaleUtils
 import org.futo.inputmethod.v2keyboard.LayoutManager
 import java.util.Locale
 import kotlin.math.sign

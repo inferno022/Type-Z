@@ -1,10 +1,10 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
-import org.futo.inputmethod.latin.common.ComposedData
-import org.futo.inputmethod.latin.settings.SettingsValuesForSuggestion
-import org.futo.inputmethod.latin.uix.DataStoreHelper
-import org.futo.inputmethod.latin.uix.SHOW_EMOJI_SUGGESTIONS
-import org.futo.inputmethod.latin.uix.actions.PersistentEmojiState
+import com.typez.keyboard.app.common.ComposedData
+import com.typez.keyboard.app.settings.SettingsValuesForSuggestion
+import com.typez.keyboard.app.uix.DataStoreHelper
+import com.typez.keyboard.app.uix.SHOW_EMOJI_SUGGESTIONS
+import com.typez.keyboard.app.uix.actions.PersistentEmojiState
 import java.util.ArrayList
 import java.util.Locale
 

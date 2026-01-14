@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.xlm;
+package com.typez.keyboard.app.xlm;
 
 import android.content.Context
 import android.util.Log
@@ -13,29 +13,29 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.futo.inputmethod.engine.general.GeneralIME
-import org.futo.inputmethod.engine.general.OnGetSuggestedWordsCallbackWithInputStyle
+import com.typez.keyboard.app.engine.general.GeneralIME
+import com.typez.keyboard.app.engine.general.OnGetSuggestedWordsCallbackWithInputStyle
 import org.futo.inputmethod.keyboard.KeyboardSwitcher
-import org.futo.inputmethod.latin.BinaryDictionary
-import org.futo.inputmethod.latin.BuildConfig
-import org.futo.inputmethod.latin.Dictionary
-import org.futo.inputmethod.latin.DictionaryFacilitator
-import org.futo.inputmethod.latin.NgramContext
-import org.futo.inputmethod.latin.Suggest
-import org.futo.inputmethod.latin.SuggestedWords
-import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
-import org.futo.inputmethod.latin.SuggestionBlacklist
-import org.futo.inputmethod.latin.common.ComposedData
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.inputlogic.InputLogic
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.SHOW_EMOJI_SUGGESTIONS
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.USE_TRANSFORMER_FINETUNING
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.getSettingFlow
-import org.futo.inputmethod.latin.utils.AsyncResultHolder
-import org.futo.inputmethod.latin.utils.SuggestionResults
+import com.typez.keyboard.app.BinaryDictionary
+import com.typez.keyboard.app.BuildConfig
+import com.typez.keyboard.app.Dictionary
+import com.typez.keyboard.app.DictionaryFacilitator
+import com.typez.keyboard.app.NgramContext
+import com.typez.keyboard.app.Suggest
+import com.typez.keyboard.app.SuggestedWords
+import com.typez.keyboard.app.SuggestedWords.SuggestedWordInfo
+import com.typez.keyboard.app.SuggestionBlacklist
+import com.typez.keyboard.app.common.ComposedData
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.inputlogic.InputLogic
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.SHOW_EMOJI_SUGGESTIONS
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.USE_TRANSFORMER_FINETUNING
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.getSettingFlow
+import com.typez.keyboard.app.utils.AsyncResultHolder
+import com.typez.keyboard.app.utils.SuggestionResults
 import kotlin.math.ceil
 
 

@@ -31,9 +31,9 @@ import org.futo.inputmethod.keyboard.internal.KeyboardIconsSet
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
 import org.futo.inputmethod.keyboard.internal.MoreKeySpec
 import org.futo.inputmethod.keyboard.internal.MoreKeySpec.LettersOnBaseLayout
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.common.StringUtils
-import org.futo.inputmethod.latin.uix.DynamicThemeProvider
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.common.StringUtils
+import com.typez.keyboard.app.uix.DynamicThemeProvider
 import org.futo.inputmethod.v2keyboard.Direction
 import org.futo.inputmethod.v2keyboard.KeyVisualStyle
 import org.futo.inputmethod.v2keyboard.computeDirectionsFromDeltaPos

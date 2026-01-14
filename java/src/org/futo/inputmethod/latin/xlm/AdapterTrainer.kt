@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.xlm
+package com.typez.keyboard.app.xlm
 
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.flow.MutableSharedFlow

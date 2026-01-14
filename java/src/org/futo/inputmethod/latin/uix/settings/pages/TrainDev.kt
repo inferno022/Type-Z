@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -14,16 +14,16 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.uix.getSettingFlow
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.xlm.HistoryLogForTraining
-import org.futo.inputmethod.latin.xlm.NUM_TRAINING_RUNS_KEY
-import org.futo.inputmethod.latin.xlm.TrainingState
-import org.futo.inputmethod.latin.xlm.TrainingStateWithModel
-import org.futo.inputmethod.latin.xlm.TrainingWorkerStatus
-import org.futo.inputmethod.latin.xlm.loadHistoryLogBackup
-import org.futo.inputmethod.latin.xlm.scheduleTrainingWorkerImmediately
+import com.typez.keyboard.app.uix.getSettingFlow
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.xlm.HistoryLogForTraining
+import com.typez.keyboard.app.xlm.NUM_TRAINING_RUNS_KEY
+import com.typez.keyboard.app.xlm.TrainingState
+import com.typez.keyboard.app.xlm.TrainingStateWithModel
+import com.typez.keyboard.app.xlm.TrainingWorkerStatus
+import com.typez.keyboard.app.xlm.loadHistoryLogBackup
+import com.typez.keyboard.app.xlm.scheduleTrainingWorkerImmediately
 import kotlin.math.roundToInt
 
 

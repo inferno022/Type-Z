@@ -1,11 +1,11 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.graphics.BitmapFactory
 import android.graphics.Typeface
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
-import org.futo.inputmethod.latin.uix.actions.BugInfo
-import org.futo.inputmethod.latin.uix.actions.BugViewerState
+import com.typez.keyboard.app.uix.actions.BugInfo
+import com.typez.keyboard.app.uix.actions.BugViewerState
 import org.futo.inputmethod.v2keyboard.KeyVisualStyle
 import java.io.File
 

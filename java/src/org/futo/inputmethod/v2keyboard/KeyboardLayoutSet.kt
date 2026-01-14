@@ -14,11 +14,11 @@ import org.futo.inputmethod.keyboard.internal.KeyboardLayoutKind
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutPage
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
 import org.futo.inputmethod.keyboard.internal.KeyboardTextsMultiSet
-import org.futo.inputmethod.latin.settings.LongPressKeySettings
-import org.futo.inputmethod.latin.uix.actions.BugInfo
-import org.futo.inputmethod.latin.uix.actions.BugViewerState
-import org.futo.inputmethod.latin.uix.settings.pages.CustomLayout
-import org.futo.inputmethod.latin.utils.InputTypeUtils
+import com.typez.keyboard.app.settings.LongPressKeySettings
+import com.typez.keyboard.app.uix.actions.BugInfo
+import com.typez.keyboard.app.uix.actions.BugViewerState
+import com.typez.keyboard.app.uix.settings.pages.CustomLayout
+import com.typez.keyboard.app.utils.InputTypeUtils
 import java.util.Locale
 import kotlin.io.encoding.Base64
 import kotlin.io.encoding.ExperimentalEncodingApi

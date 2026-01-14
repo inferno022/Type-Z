@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.utils
+package com.typez.keyboard.app.utils
 
 import java.io.ByteArrayOutputStream
 import java.io.InputStream

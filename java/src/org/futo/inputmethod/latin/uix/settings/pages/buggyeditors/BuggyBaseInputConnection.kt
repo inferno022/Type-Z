@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.buggyeditors
+package com.typez.keyboard.app.uix.settings.pages.buggyeditors
 
 import android.content.ClipData
 import android.content.Context

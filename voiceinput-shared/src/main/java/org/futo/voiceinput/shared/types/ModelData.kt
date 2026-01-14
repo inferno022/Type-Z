@@ -1,8 +1,8 @@
-package org.futo.voiceinput.shared.types
+package com.typez.keyboard.app.voiceinput.shared.types
 
 import android.content.Context
 import androidx.annotation.StringRes
-import org.futo.voiceinput.shared.ggml.WhisperGGML
+import com.typez.keyboard.app.voiceinput.shared.ggml.WhisperGGML
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException

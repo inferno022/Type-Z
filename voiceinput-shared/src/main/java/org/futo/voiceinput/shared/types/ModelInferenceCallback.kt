@@ -1,4 +1,4 @@
-package org.futo.voiceinput.shared.types
+package com.typez.keyboard.app.voiceinput.shared.types
 
 enum class InferenceState {
     ExtractingMel, LoadingModel, Encoding, DecodingLanguage, SwitchingModel, DecodingStarted

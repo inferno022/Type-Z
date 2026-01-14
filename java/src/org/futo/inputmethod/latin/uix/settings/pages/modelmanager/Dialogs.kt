@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.modelmanager
+package com.typez.keyboard.app.uix.settings.pages.modelmanager
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
@@ -13,8 +13,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.runBlocking
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.xlm.ModelPaths
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.xlm.ModelPaths
 import java.io.File
 
 

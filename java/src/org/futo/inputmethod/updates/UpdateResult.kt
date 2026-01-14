@@ -4,7 +4,7 @@ import android.util.Log
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json
-import org.futo.inputmethod.latin.BuildConfig
+import com.typez.keyboard.app.BuildConfig
 
 @Serializable
 data class UpdateResult(

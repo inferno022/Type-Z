@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.themes
+package com.typez.keyboard.app.uix.settings.pages.themes
 
 import kotlinx.serialization.Serializable
 

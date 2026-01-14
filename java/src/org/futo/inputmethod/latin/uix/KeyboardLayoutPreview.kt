@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.graphics.Rect
@@ -27,8 +27,8 @@ import org.futo.inputmethod.keyboard.KeyboardView
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutElement
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutKind
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutPage
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.actions.BugViewerState
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.actions.BugViewerState
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2Params
 import org.futo.inputmethod.v2keyboard.LayoutManager

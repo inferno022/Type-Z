@@ -7,9 +7,9 @@ import androidx.compose.ui.unit.Dp
 import org.futo.inputmethod.keyboard.KeyConsts
 import org.futo.inputmethod.keyboard.internal.KeyboardLayoutElement
 import org.futo.inputmethod.keyboard.internal.KeyboardParams
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.uix.DynamicThemeProvider
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.uix.DynamicThemeProvider
 import kotlin.math.floor
 import kotlin.math.roundToInt
 

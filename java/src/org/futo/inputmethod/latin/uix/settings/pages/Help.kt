@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -11,17 +11,17 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import kotlinx.coroutines.runBlocking
-import org.futo.inputmethod.latin.BuildConfig
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.setSetting
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.UserSetting
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.userSettingDecorationOnly
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.BuildConfig
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.setSetting
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.UserSetting
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.userSettingDecorationOnly
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
 import org.futo.inputmethod.updates.openURI
 
 internal fun Context.copyToClipboard(text: CharSequence, label: String = "Copied Text") {

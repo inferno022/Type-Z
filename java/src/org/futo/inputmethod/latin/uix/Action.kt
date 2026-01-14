@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.graphics.Typeface
@@ -20,18 +20,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.lifecycle.LifecycleCoroutineScope
 import androidx.navigation.NavHostController
-import org.futo.inputmethod.engine.IMEInterface
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.SuggestionBlacklist
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.SettingToggleDataStore
-import org.futo.inputmethod.latin.uix.settings.SettingToggleSharedPrefs
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.theme.ThemeOption
-import org.futo.inputmethod.latin.uix.utils.TextContext
+import com.typez.keyboard.app.engine.IMEInterface
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.SuggestionBlacklist
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.SettingToggleDataStore
+import com.typez.keyboard.app.uix.settings.SettingToggleSharedPrefs
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.theme.ThemeOption
+import com.typez.keyboard.app.uix.utils.TextContext
 import org.futo.inputmethod.v2keyboard.KeyboardSizingCalculator
 import java.util.Locale
 

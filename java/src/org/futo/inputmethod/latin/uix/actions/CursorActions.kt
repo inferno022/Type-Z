@@ -1,9 +1,9 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import android.view.KeyEvent
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.KeyboardManagerForAction
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.KeyboardManagerForAction
 
 /*
 private fun getMetaState(manager: KeyboardManagerForAction): Int =

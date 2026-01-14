@@ -1,4 +1,4 @@
-package org.futo.voiceinput.shared.ggml
+package com.typez.keyboard.app.voiceinput.shared.ggml
 
 import androidx.annotation.Keep
 import kotlinx.coroutines.DelicateCoroutinesApi

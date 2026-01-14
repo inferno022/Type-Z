@@ -1,4 +1,4 @@
-package org.futo.voiceinput.shared
+package com.typez.keyboard.app.voiceinput.shared
 
 import android.content.Context
 import androidx.compose.foundation.clickable
@@ -18,18 +18,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.LifecycleCoroutineScope
-import org.futo.voiceinput.shared.types.AudioRecognizerListener
-import org.futo.voiceinput.shared.types.InferenceState
-import org.futo.voiceinput.shared.types.Language
-import org.futo.voiceinput.shared.types.MagnitudeState
-import org.futo.voiceinput.shared.ui.InnerRecognize
-import org.futo.voiceinput.shared.ui.MicrophoneDeviceState
-import org.futo.voiceinput.shared.ui.PartialDecodingResult
-import org.futo.voiceinput.shared.ui.RecognizeLoadingCircle
-import org.futo.voiceinput.shared.ui.RecognizeMicError
-import org.futo.voiceinput.shared.whisper.DecodingConfiguration
-import org.futo.voiceinput.shared.whisper.ModelManager
-import org.futo.voiceinput.shared.whisper.MultiModelRunConfiguration
+import com.typez.keyboard.app.voiceinput.shared.types.AudioRecognizerListener
+import com.typez.keyboard.app.voiceinput.shared.types.InferenceState
+import com.typez.keyboard.app.voiceinput.shared.types.Language
+import com.typez.keyboard.app.voiceinput.shared.types.MagnitudeState
+import com.typez.keyboard.app.voiceinput.shared.ui.InnerRecognize
+import com.typez.keyboard.app.voiceinput.shared.ui.MicrophoneDeviceState
+import com.typez.keyboard.app.voiceinput.shared.ui.PartialDecodingResult
+import com.typez.keyboard.app.voiceinput.shared.ui.RecognizeLoadingCircle
+import com.typez.keyboard.app.voiceinput.shared.ui.RecognizeMicError
+import com.typez.keyboard.app.voiceinput.shared.whisper.DecodingConfiguration
+import com.typez.keyboard.app.voiceinput.shared.whisper.ModelManager
+import com.typez.keyboard.app.voiceinput.shared.whisper.MultiModelRunConfiguration
 
 data class RecognizerViewSettings(
     val shouldShowVerboseFeedback: Boolean,

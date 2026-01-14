@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.resizing
+package com.typez.keyboard.app.uix.resizing
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
@@ -12,10 +12,10 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.coerceAtLeast
 import androidx.compose.ui.unit.dp
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.uix.keyboardBottomPadding
-import org.futo.inputmethod.latin.uix.navBarHeight
-import org.futo.inputmethod.latin.uix.safeKeyboardPadding
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.uix.keyboardBottomPadding
+import com.typez.keyboard.app.uix.navBarHeight
+import com.typez.keyboard.app.uix.safeKeyboardPadding
 import org.futo.inputmethod.v2keyboard.ComputedKeyboardSize
 import org.futo.inputmethod.v2keyboard.FloatingKeyboardSize
 import org.futo.inputmethod.v2keyboard.KeyboardMode

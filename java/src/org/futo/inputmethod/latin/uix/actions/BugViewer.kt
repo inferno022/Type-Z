@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.actions
+package com.typez.keyboard.app.uix.actions
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -13,11 +13,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.futo.inputmethod.latin.BuildConfig
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.Action
-import org.futo.inputmethod.latin.uix.ActionWindow
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
+import com.typez.keyboard.app.BuildConfig
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.Action
+import com.typez.keyboard.app.uix.ActionWindow
+import com.typez.keyboard.app.uix.settings.ScrollableList
 import org.futo.inputmethod.updates.openURI
 
 

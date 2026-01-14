@@ -22,16 +22,16 @@ import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.encoding.decodeStructure
 import kotlinx.serialization.encoding.encodeStructure
 import kotlinx.serialization.json.Json
-import org.futo.inputmethod.latin.FoldStateProvider
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.settings.SettingsValues
-import org.futo.inputmethod.latin.uix.OldStyleActionsBar
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.UixManager
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.getSettingBlocking
-import org.futo.inputmethod.latin.uix.setSettingBlocking
-import org.futo.inputmethod.latin.utils.ResourceUtils
+import com.typez.keyboard.app.FoldStateProvider
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.settings.SettingsValues
+import com.typez.keyboard.app.uix.OldStyleActionsBar
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.UixManager
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.getSettingBlocking
+import com.typez.keyboard.app.uix.setSettingBlocking
+import com.typez.keyboard.app.utils.ResourceUtils
 import kotlin.math.roundToInt
 
 val OldKeyboardHeightMultiplierSetting = SettingsKey(floatPreferencesKey("keyboardHeightMultiplier"), 1.0f)

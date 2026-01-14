@@ -1,9 +1,9 @@
-package org.futo.inputmethod.engine
+package com.typez.keyboard.app.engine
 
 import org.futo.inputmethod.annotations.UsedForTesting
 import org.futo.inputmethod.event.Event
-import org.futo.inputmethod.latin.common.Constants
-import org.futo.inputmethod.latin.common.InputPointers
+import com.typez.keyboard.app.common.Constants
+import com.typez.keyboard.app.common.InputPointers
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
 
 interface IMEInterface {

@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.app.Dialog
 import android.app.KeyguardManager
@@ -14,8 +14,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.ComposeView
 import androidx.lifecycle.setViewTreeLifecycleOwner
 import androidx.savedstate.setViewTreeSavedStateRegistryOwner
-import org.futo.inputmethod.latin.LatinIME
-import org.futo.inputmethod.latin.R
+import com.typez.keyboard.app.LatinIME
+import com.typez.keyboard.app.R
 import java.net.URLDecoder
 import java.net.URLEncoder
 

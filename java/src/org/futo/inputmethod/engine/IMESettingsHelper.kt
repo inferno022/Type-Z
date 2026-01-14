@@ -1,15 +1,15 @@
-package org.futo.inputmethod.engine
+package com.typez.keyboard.app.engine
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-// import org.futo.inputmethod.engine.general.JapaneseIMESettings  // Temporarily disabled
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.Subtypes
-import org.futo.inputmethod.latin.SubtypesSetting
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.useDataStoreValue
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
+// import com.typez.keyboard.app.engine.general.JapaneseIMESettings  // Temporarily disabled
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.Subtypes
+import com.typez.keyboard.app.SubtypesSetting
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.useDataStoreValue
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
 
 @Composable
 private fun isVisible(language: String): Boolean {

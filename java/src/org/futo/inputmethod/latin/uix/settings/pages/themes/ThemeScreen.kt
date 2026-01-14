@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages.themes
+package com.typez.keyboard.app.uix.settings.pages.themes
 
 import android.app.Activity
 import android.net.Uri
@@ -35,16 +35,16 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.THEME_KEY
-import org.futo.inputmethod.latin.uix.settings.RotatingChevronIcon
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.useDataStore
-import org.futo.inputmethod.latin.uix.theme.ZipThemes
-import org.futo.inputmethod.latin.uix.theme.Typography
-import org.futo.inputmethod.latin.uix.theme.selector.ThemePicker
-import org.futo.inputmethod.latin.uix.theme.selector.ZipThemePreview
-import org.futo.inputmethod.latin.uix.urlEncode
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.THEME_KEY
+import com.typez.keyboard.app.uix.settings.RotatingChevronIcon
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.useDataStore
+import com.typez.keyboard.app.uix.theme.ZipThemes
+import com.typez.keyboard.app.uix.theme.Typography
+import com.typez.keyboard.app.uix.theme.selector.ThemePicker
+import com.typez.keyboard.app.uix.theme.selector.ZipThemePreview
+import com.typez.keyboard.app.uix.urlEncode
 
 
 @Composable

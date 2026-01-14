@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import androidx.window.layout.FoldingFeature
 

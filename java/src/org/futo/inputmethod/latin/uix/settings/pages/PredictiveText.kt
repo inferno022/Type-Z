@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import android.content.Intent
 import androidx.compose.material3.Icon
@@ -7,17 +7,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.booleanResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.settings.Settings
-import org.futo.inputmethod.latin.uix.USE_TRANSFORMER_FINETUNING
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.Tip
-import org.futo.inputmethod.latin.uix.settings.UserSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.useSharedPrefsBool
-import org.futo.inputmethod.latin.uix.settings.userSettingDecorationOnly
-import org.futo.inputmethod.latin.uix.settings.userSettingNavigationItem
-import org.futo.inputmethod.latin.uix.settings.userSettingToggleDataStore
-import org.futo.inputmethod.latin.uix.settings.userSettingToggleSharedPrefs
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.settings.Settings
+import com.typez.keyboard.app.uix.USE_TRANSFORMER_FINETUNING
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.Tip
+import com.typez.keyboard.app.uix.settings.UserSettingsMenu
+import com.typez.keyboard.app.uix.settings.useSharedPrefsBool
+import com.typez.keyboard.app.uix.settings.userSettingDecorationOnly
+import com.typez.keyboard.app.uix.settings.userSettingNavigationItem
+import com.typez.keyboard.app.uix.settings.userSettingToggleDataStore
+import com.typez.keyboard.app.uix.settings.userSettingToggleSharedPrefs
 
 private val visibilityCheckLMEnabled = @Composable {
     useSharedPrefsBool(Settings.PREF_KEY_USE_TRANSFORMER_LM, true).value

@@ -10,11 +10,11 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.modules.EmptySerializersModule
-import org.futo.inputmethod.latin.localeFromString
-import org.futo.inputmethod.latin.uix.actions.BugInfo
-import org.futo.inputmethod.latin.uix.actions.BugViewerState
-import org.futo.inputmethod.latin.uix.settings.pages.CustomLayout
-import org.futo.inputmethod.latin.uix.settings.pages.getCustomLayout
+import com.typez.keyboard.app.localeFromString
+import com.typez.keyboard.app.uix.actions.BugInfo
+import com.typez.keyboard.app.uix.actions.BugViewerState
+import com.typez.keyboard.app.uix.settings.pages.CustomLayout
+import com.typez.keyboard.app.uix.settings.pages.getCustomLayout
 import java.util.Locale
 
 @Serializable

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.futo.inputmethod.latin.suggestions
+package com.typez.keyboard.app.suggestions
 
-import org.futo.inputmethod.latin.SuggestedWords
-import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
+import com.typez.keyboard.app.SuggestedWords
+import com.typez.keyboard.app.SuggestedWords.SuggestedWordInfo
 
 interface SuggestionStripViewListener {
     fun showImportantNoticeContents()

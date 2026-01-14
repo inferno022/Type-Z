@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.os.Build
@@ -18,7 +18,7 @@ import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import kotlinx.coroutines.delay
-import org.futo.inputmethod.latin.R
+import com.typez.keyboard.app.R
 
 @Composable
 fun AndroidTextInput(allowPredictions: Boolean = true, customOptions: Set<String> = setOf(), autoshow: Boolean = true) {

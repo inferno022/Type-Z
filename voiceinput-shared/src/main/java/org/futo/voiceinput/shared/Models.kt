@@ -1,8 +1,8 @@
-package org.futo.voiceinput.shared
+package com.typez.keyboard.app.voiceinput.shared
 
-import org.futo.voiceinput.shared.types.ModelBuiltInAsset
-import org.futo.voiceinput.shared.types.ModelDownloadable
-import org.futo.voiceinput.shared.types.ModelLoader
+import com.typez.keyboard.app.voiceinput.shared.types.ModelBuiltInAsset
+import com.typez.keyboard.app.voiceinput.shared.types.ModelDownloadable
+import com.typez.keyboard.app.voiceinput.shared.types.ModelLoader
 
 val BUILTIN_ENGLISH_MODEL: ModelLoader = ModelBuiltInAsset(
     name = R.string.tiny_en_name,

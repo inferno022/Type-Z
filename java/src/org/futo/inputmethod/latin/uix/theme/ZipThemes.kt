@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.content.Context
 import androidx.compose.runtime.MutableIntState
@@ -10,13 +10,13 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import okio.ByteString.Companion.encodeUtf8
 import org.futo.inputmethod.dictionarypack.MD5Calculator
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
-import org.futo.inputmethod.latin.uix.THEME_KEY
-import org.futo.inputmethod.latin.uix.actions.throwIfDebug
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.setSetting
-import org.futo.inputmethod.latin.uix.settings.pages.DevAutoAcceptThemeImport
-import org.futo.inputmethod.latin.utils.readAllBytesCompat
+import com.typez.keyboard.app.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.THEME_KEY
+import com.typez.keyboard.app.uix.actions.throwIfDebug
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.setSetting
+import com.typez.keyboard.app.uix.settings.pages.DevAutoAcceptThemeImport
+import com.typez.keyboard.app.utils.readAllBytesCompat
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileNotFoundException

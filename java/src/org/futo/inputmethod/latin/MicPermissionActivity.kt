@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin
+package com.typez.keyboard.app
 
 import android.Manifest
 import android.content.Intent
@@ -31,10 +31,10 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
-import org.futo.inputmethod.latin.uix.settings.DataStoreCacheProvider
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.theme.UixThemeAuto
+import com.typez.keyboard.app.uix.settings.DataStoreCacheProvider
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.theme.UixThemeAuto
 
 @Composable
 private fun MicPermissionRequester(onExit: () -> Unit) {

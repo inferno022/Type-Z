@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.futo.inputmethod.latin.uix.actions.emoji
+package com.typez.keyboard.app.uix.actions.emoji
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -36,7 +36,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
-import org.futo.inputmethod.latin.R
+import com.typez.keyboard.app.R
 
 
 class EmojiView @JvmOverloads constructor(

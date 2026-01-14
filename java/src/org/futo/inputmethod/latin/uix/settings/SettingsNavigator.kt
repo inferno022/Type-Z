@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings
+package com.typez.keyboard.app.uix.settings
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -10,61 +10,61 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.dialog
 import androidx.navigation.compose.rememberNavController
-import org.futo.inputmethod.engine.IMESettingsMenu
-import org.futo.inputmethod.engine.SettingsByLanguage
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.ErrorDialog
-import org.futo.inputmethod.latin.uix.InfoDialog
-import org.futo.inputmethod.latin.uix.LocalNavController
-import org.futo.inputmethod.latin.uix.SettingsExporter.ExportingMenu
-import org.futo.inputmethod.latin.uix.actions.AllActions
-import org.futo.inputmethod.latin.uix.settings.pages.ActionEditorScreen
-import org.futo.inputmethod.latin.uix.settings.pages.ActionsScreen
-import org.futo.inputmethod.latin.uix.settings.pages.AdvancedParametersScreen
-import org.futo.inputmethod.latin.uix.settings.pages.AlreadyPaidDialog
-import org.futo.inputmethod.latin.uix.settings.pages.BlacklistScreen
-import org.futo.inputmethod.latin.uix.settings.pages.BlacklistScreenLite
-import org.futo.inputmethod.latin.uix.settings.pages.CreditsScreen
-import org.futo.inputmethod.latin.uix.settings.pages.CreditsScreenLite
-import org.futo.inputmethod.latin.uix.settings.pages.themes.CustomThemeScreen
-import org.futo.inputmethod.latin.uix.settings.pages.DevEditTextVariationsScreen
-import org.futo.inputmethod.latin.uix.settings.pages.DevKeyboardScreen
-import org.futo.inputmethod.latin.uix.settings.pages.DevLayoutEdit
-import org.futo.inputmethod.latin.uix.settings.pages.DevLayoutEditor
-import org.futo.inputmethod.latin.uix.settings.pages.DevLayoutList
-import org.futo.inputmethod.latin.uix.settings.pages.DevThemeImportScreen
-import org.futo.inputmethod.latin.uix.settings.pages.DeveloperScreen
-import org.futo.inputmethod.latin.uix.settings.pages.HelpMenu
-import org.futo.inputmethod.latin.uix.settings.pages.HomeScreen
-import org.futo.inputmethod.latin.uix.settings.pages.HomeScreenLite
-import org.futo.inputmethod.latin.uix.settings.pages.KeyboardAndTypingScreen
-import org.futo.inputmethod.latin.uix.settings.pages.KeyboardSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.pages.LanguageSettingsLite
-import org.futo.inputmethod.latin.uix.settings.pages.LanguagesScreen
-import org.futo.inputmethod.latin.uix.settings.pages.LongPressMenu
-import org.futo.inputmethod.latin.uix.settings.pages.MiscMenu
-import org.futo.inputmethod.latin.uix.settings.pages.NumberRowSettingMenu
-import org.futo.inputmethod.latin.uix.settings.pages.PaymentScreen
-import org.futo.inputmethod.latin.uix.settings.pages.PaymentThankYouScreen
-import org.futo.inputmethod.latin.uix.settings.pages.PredictiveTextMenu
-import org.futo.inputmethod.latin.uix.settings.pages.ProjectInfoView
-import org.futo.inputmethod.latin.uix.settings.pages.ResizeMenuLite
-import org.futo.inputmethod.latin.uix.settings.pages.ResizeScreen
-// import org.futo.inputmethod.latin.uix.settings.pages.SearchScreen  // Temporarily disabled
-import org.futo.inputmethod.latin.uix.settings.pages.SelectLanguageScreen
-import org.futo.inputmethod.latin.uix.settings.pages.SelectLayoutsScreen
-import org.futo.inputmethod.latin.uix.settings.pages.themes.ThemeScreen
-import org.futo.inputmethod.latin.uix.settings.pages.TypingSettingsMenu
-import org.futo.inputmethod.latin.uix.settings.pages.VoiceInputMenu
-import org.futo.inputmethod.latin.uix.settings.pages.addModelManagerNavigation
-import org.futo.inputmethod.latin.uix.settings.pages.buggyeditors.BuggyTextEditVariations
-// import org.futo.inputmethod.latin.uix.settings.pages.pdict.ConfirmDeleteExtraDictFileDialog  // Temporarily disabled
-// import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageList  // Temporarily disabled
-// import org.futo.inputmethod.latin.uix.settings.pages.pdict.PersonalDictionaryLanguageListForLocale  // Temporarily disabled
-// import org.futo.inputmethod.latin.uix.settings.pages.pdict.WordPopupDialogF  // Temporarily disabled
-import org.futo.inputmethod.latin.uix.settings.pages.themes.DeleteCustomThemeDialog
-import org.futo.inputmethod.latin.uix.urlDecode
-import org.futo.inputmethod.latin.uix.urlEncode
+import com.typez.keyboard.app.engine.IMESettingsMenu
+import com.typez.keyboard.app.engine.SettingsByLanguage
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.ErrorDialog
+import com.typez.keyboard.app.uix.InfoDialog
+import com.typez.keyboard.app.uix.LocalNavController
+import com.typez.keyboard.app.uix.SettingsExporter.ExportingMenu
+import com.typez.keyboard.app.uix.actions.AllActions
+import com.typez.keyboard.app.uix.settings.pages.ActionEditorScreen
+import com.typez.keyboard.app.uix.settings.pages.ActionsScreen
+import com.typez.keyboard.app.uix.settings.pages.AdvancedParametersScreen
+import com.typez.keyboard.app.uix.settings.pages.AlreadyPaidDialog
+import com.typez.keyboard.app.uix.settings.pages.BlacklistScreen
+import com.typez.keyboard.app.uix.settings.pages.BlacklistScreenLite
+import com.typez.keyboard.app.uix.settings.pages.CreditsScreen
+import com.typez.keyboard.app.uix.settings.pages.CreditsScreenLite
+import com.typez.keyboard.app.uix.settings.pages.themes.CustomThemeScreen
+import com.typez.keyboard.app.uix.settings.pages.DevEditTextVariationsScreen
+import com.typez.keyboard.app.uix.settings.pages.DevKeyboardScreen
+import com.typez.keyboard.app.uix.settings.pages.DevLayoutEdit
+import com.typez.keyboard.app.uix.settings.pages.DevLayoutEditor
+import com.typez.keyboard.app.uix.settings.pages.DevLayoutList
+import com.typez.keyboard.app.uix.settings.pages.DevThemeImportScreen
+import com.typez.keyboard.app.uix.settings.pages.DeveloperScreen
+import com.typez.keyboard.app.uix.settings.pages.HelpMenu
+import com.typez.keyboard.app.uix.settings.pages.HomeScreen
+import com.typez.keyboard.app.uix.settings.pages.HomeScreenLite
+import com.typez.keyboard.app.uix.settings.pages.KeyboardAndTypingScreen
+import com.typez.keyboard.app.uix.settings.pages.KeyboardSettingsMenu
+import com.typez.keyboard.app.uix.settings.pages.LanguageSettingsLite
+import com.typez.keyboard.app.uix.settings.pages.LanguagesScreen
+import com.typez.keyboard.app.uix.settings.pages.LongPressMenu
+import com.typez.keyboard.app.uix.settings.pages.MiscMenu
+import com.typez.keyboard.app.uix.settings.pages.NumberRowSettingMenu
+import com.typez.keyboard.app.uix.settings.pages.PaymentScreen
+import com.typez.keyboard.app.uix.settings.pages.PaymentThankYouScreen
+import com.typez.keyboard.app.uix.settings.pages.PredictiveTextMenu
+import com.typez.keyboard.app.uix.settings.pages.ProjectInfoView
+import com.typez.keyboard.app.uix.settings.pages.ResizeMenuLite
+import com.typez.keyboard.app.uix.settings.pages.ResizeScreen
+// import com.typez.keyboard.app.uix.settings.pages.SearchScreen  // Temporarily disabled
+import com.typez.keyboard.app.uix.settings.pages.SelectLanguageScreen
+import com.typez.keyboard.app.uix.settings.pages.SelectLayoutsScreen
+import com.typez.keyboard.app.uix.settings.pages.themes.ThemeScreen
+import com.typez.keyboard.app.uix.settings.pages.TypingSettingsMenu
+import com.typez.keyboard.app.uix.settings.pages.VoiceInputMenu
+import com.typez.keyboard.app.uix.settings.pages.addModelManagerNavigation
+import com.typez.keyboard.app.uix.settings.pages.buggyeditors.BuggyTextEditVariations
+// import com.typez.keyboard.app.uix.settings.pages.pdict.ConfirmDeleteExtraDictFileDialog  // Temporarily disabled
+// import com.typez.keyboard.app.uix.settings.pages.pdict.PersonalDictionaryLanguageList  // Temporarily disabled
+// import com.typez.keyboard.app.uix.settings.pages.pdict.PersonalDictionaryLanguageListForLocale  // Temporarily disabled
+// import com.typez.keyboard.app.uix.settings.pages.pdict.WordPopupDialogF  // Temporarily disabled
+import com.typez.keyboard.app.uix.settings.pages.themes.DeleteCustomThemeDialog
+import com.typez.keyboard.app.uix.urlDecode
+import com.typez.keyboard.app.uix.urlEncode
 
 // Utility function for quick error messages
 fun NavHostController.navigateToError(title: String, body: String) {

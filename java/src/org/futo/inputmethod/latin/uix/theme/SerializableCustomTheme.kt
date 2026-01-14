@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.theme
+package com.typez.keyboard.app.uix.theme
 
 import android.annotation.SuppressLint
 import android.graphics.Rect
@@ -18,9 +18,9 @@ import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.descriptors.SerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
-import org.futo.inputmethod.latin.uix.ExtraColors
-import org.futo.inputmethod.latin.uix.KeyboardColorScheme
-import org.futo.inputmethod.latin.uix.utils.toNinePatchDrawable
+import com.typez.keyboard.app.uix.ExtraColors
+import com.typez.keyboard.app.uix.KeyboardColorScheme
+import com.typez.keyboard.app.uix.utils.toNinePatchDrawable
 import kotlin.math.roundToInt
 
 private object ColorAsStringSerializer : KSerializer<SerializableColor> {

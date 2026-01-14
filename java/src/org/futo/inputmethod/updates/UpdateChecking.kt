@@ -14,9 +14,9 @@ import kotlinx.serialization.json.Json
 //import okhttp3.OkHttpClient
 //import okhttp3.Request
 //import okhttp3.internal.closeQuietly
-import org.futo.inputmethod.latin.uix.dataStore
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.BuildConfig
+import com.typez.keyboard.app.uix.dataStore
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.BuildConfig
 import java.lang.Exception
 
 const val UPDATE_URL = "https://keyboard.futo.org/keyboard_version"

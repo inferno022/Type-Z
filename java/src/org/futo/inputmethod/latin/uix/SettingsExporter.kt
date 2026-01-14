@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -33,21 +33,21 @@ import okio.ByteString.Companion.toByteString
 import okio.buffer
 import okio.sink
 import okio.source
-import org.futo.inputmethod.engine.GlobalIMEMessage
-import org.futo.inputmethod.engine.IMEMessage
-// import org.futo.inputmethod.engine.general.mozcUserProfileDir  // Temporarily disabled
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.utils.readAllBytesCompat
-import org.futo.inputmethod.latin.uix.PreferenceUtils.getDefaultSharedPreferences
-import org.futo.inputmethod.latin.uix.actions.ClipboardFileName
-import org.futo.inputmethod.latin.uix.actions.ClipboardHistoryManager.Companion.onClipboardImportedFlow
-import org.futo.inputmethod.latin.uix.actions.clipboardFile
-import org.futo.inputmethod.latin.uix.settings.ScreenTitle
-import org.futo.inputmethod.latin.uix.settings.ScrollableList
-import org.futo.inputmethod.latin.uix.settings.SettingsActivity
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.findSettingsActivity
-import org.futo.inputmethod.latin.uix.theme.ZipThemes
-import org.futo.inputmethod.latin.xlm.ModelPaths
+import com.typez.keyboard.app.engine.GlobalIMEMessage
+import com.typez.keyboard.app.engine.IMEMessage
+// import com.typez.keyboard.app.engine.general.mozcUserProfileDir  // Temporarily disabled
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.utils.readAllBytesCompat
+import com.typez.keyboard.app.uix.PreferenceUtils.getDefaultSharedPreferences
+import com.typez.keyboard.app.uix.actions.ClipboardFileName
+import com.typez.keyboard.app.uix.actions.ClipboardHistoryManager.Companion.onClipboardImportedFlow
+import com.typez.keyboard.app.uix.actions.clipboardFile
+import com.typez.keyboard.app.uix.settings.ScreenTitle
+import com.typez.keyboard.app.uix.settings.ScrollableList
+import com.typez.keyboard.app.uix.settings.SettingsActivity
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.findSettingsActivity
+import com.typez.keyboard.app.uix.theme.ZipThemes
+import com.typez.keyboard.app.xlm.ModelPaths
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.ByteArrayOutputStream

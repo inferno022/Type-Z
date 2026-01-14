@@ -1,15 +1,15 @@
-package org.futo.inputmethod.latin.uix.settings.pages
+package com.typez.keyboard.app.uix.settings.pages
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.dialog
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.FinetuneModelScreen
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.ModelDeleteConfirmScreen
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.ModelListScreen
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.ModelScreenNav
-import org.futo.inputmethod.latin.uix.settings.pages.modelmanager.PrivateModelExportConfirmation
-import org.futo.inputmethod.latin.uix.urlDecode
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.FinetuneModelScreen
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.ModelDeleteConfirmScreen
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.ModelListScreen
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.ModelScreenNav
+import com.typez.keyboard.app.uix.settings.pages.modelmanager.PrivateModelExportConfirmation
+import com.typez.keyboard.app.uix.urlDecode
 import java.io.File
 
 fun NavGraphBuilder.addModelManagerNavigation(

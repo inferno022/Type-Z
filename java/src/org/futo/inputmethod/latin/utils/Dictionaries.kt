@@ -1,12 +1,12 @@
-package org.futo.inputmethod.latin.utils
+package com.typez.keyboard.app.utils
 
 import android.content.Context
 import android.content.res.AssetFileDescriptor
 import android.content.res.Resources.NotFoundException
 import android.util.Log
-import org.futo.inputmethod.latin.AssetFileAddress
-import org.futo.inputmethod.latin.BundleHelper
-import org.futo.inputmethod.latin.R
+import com.typez.keyboard.app.AssetFileAddress
+import com.typez.keyboard.app.BundleHelper
+import com.typez.keyboard.app.R
 import java.io.File
 import java.io.IOException
 import java.util.Locale

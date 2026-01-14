@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix
+package com.typez.keyboard.app.uix
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -37,10 +37,10 @@ import kotlinx.coroutines.withContext
 import okio.buffer
 import okio.sink
 import okio.source
-import org.futo.inputmethod.latin.ActiveSubtype
-import org.futo.inputmethod.latin.Subtypes
-import org.futo.inputmethod.latin.SubtypesSetting
-import org.futo.inputmethod.latin.uix.theme.presets.ClassicMaterialDark
+import com.typez.keyboard.app.ActiveSubtype
+import com.typez.keyboard.app.Subtypes
+import com.typez.keyboard.app.SubtypesSetting
+import com.typez.keyboard.app.uix.theme.presets.ClassicMaterialDark
 import org.futo.inputmethod.v2keyboard.LayoutManager
 import java.io.File
 

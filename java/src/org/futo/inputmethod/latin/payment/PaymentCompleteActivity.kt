@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.payment
+package com.typez.keyboard.app.payment
 
 import android.os.Bundle
 import android.util.Log
@@ -19,19 +19,19 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
-import org.futo.inputmethod.latin.R
-import org.futo.inputmethod.latin.uix.dataStore
-import org.futo.inputmethod.latin.uix.getSetting
-import org.futo.inputmethod.latin.uix.settings.DataStoreCacheProvider
-import org.futo.inputmethod.latin.uix.settings.NavigationItem
-import org.futo.inputmethod.latin.uix.settings.NavigationItemStyle
-import org.futo.inputmethod.latin.uix.settings.SettingsActivity
-import org.futo.inputmethod.latin.uix.settings.pages.EXT_LICENSE_KEY
-import org.futo.inputmethod.latin.uix.settings.pages.IS_ALREADY_PAID
-import org.futo.inputmethod.latin.uix.settings.pages.IS_PAYMENT_PENDING
-import org.futo.inputmethod.latin.uix.settings.pages.PaymentThankYouScreen
-import org.futo.inputmethod.latin.uix.settings.pages.startAppActivity
-import org.futo.inputmethod.latin.uix.theme.UixThemeAuto
+import com.typez.keyboard.app.R
+import com.typez.keyboard.app.uix.dataStore
+import com.typez.keyboard.app.uix.getSetting
+import com.typez.keyboard.app.uix.settings.DataStoreCacheProvider
+import com.typez.keyboard.app.uix.settings.NavigationItem
+import com.typez.keyboard.app.uix.settings.NavigationItemStyle
+import com.typez.keyboard.app.uix.settings.SettingsActivity
+import com.typez.keyboard.app.uix.settings.pages.EXT_LICENSE_KEY
+import com.typez.keyboard.app.uix.settings.pages.IS_ALREADY_PAID
+import com.typez.keyboard.app.uix.settings.pages.IS_PAYMENT_PENDING
+import com.typez.keyboard.app.uix.settings.pages.PaymentThankYouScreen
+import com.typez.keyboard.app.uix.settings.pages.startAppActivity
+import com.typez.keyboard.app.uix.theme.UixThemeAuto
 import org.futo.inputmethod.updates.openURI
 
 class PaymentCompleteActivity : ComponentActivity() {

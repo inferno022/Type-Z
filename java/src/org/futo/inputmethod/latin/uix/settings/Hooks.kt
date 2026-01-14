@@ -1,4 +1,4 @@
-package org.futo.inputmethod.latin.uix.settings
+package com.typez.keyboard.app.uix.settings
 
 import android.content.SharedPreferences
 import android.util.Log
@@ -22,9 +22,9 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import org.futo.inputmethod.latin.uix.PreferenceUtils
-import org.futo.inputmethod.latin.uix.SettingsKey
-import org.futo.inputmethod.latin.uix.dataStore
+import com.typez.keyboard.app.uix.PreferenceUtils
+import com.typez.keyboard.app.uix.SettingsKey
+import com.typez.keyboard.app.uix.dataStore
 
 class DataStoreCache(
     val currPreferences: Preferences

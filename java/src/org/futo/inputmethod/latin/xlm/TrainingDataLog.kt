@@ -1,10 +1,10 @@
-package org.futo.inputmethod.latin.xlm
+package com.typez.keyboard.app.xlm
 
 import android.content.Context
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import org.futo.inputmethod.latin.uix.isDirectBootUnlocked
+import com.typez.keyboard.app.uix.isDirectBootUnlocked
 import java.io.File
 
 @Serializable
