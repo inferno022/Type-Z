@@ -115,7 +115,7 @@ android {
         versionCode getVersionCode()
 
         applicationId 'org.futo.inputmethod.latin'
-        testApplicationId 'org.futo.inputmethod.latin.tests'
+        testApplicationId 'org.typez.keyboard.tests'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = false
     }
@@ -196,7 +196,7 @@ android {
     productFlavors {
         unstable {
             dimension "buildType"
-            applicationIdSuffix ".unstable"
+            applicationIdSuffix ".typez.unstable"
             versionNameSuffix "-unstable"
 
             buildConfigField "boolean", "IS_PLAYSTORE_BUILD", "false"
